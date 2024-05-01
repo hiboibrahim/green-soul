@@ -2,7 +2,7 @@
     width: 100%;
     height: 100vh;
     min-width: 100vh;
-    background-image: url('../../assets/community.avif');
+    background: linear-gradient(rgba(8,0,58,0.4), rgba(8, 0, 58, 0.4)), url('../../assets/community.avif');
     background-size: cover;
     background-position: center;
     color: white;
