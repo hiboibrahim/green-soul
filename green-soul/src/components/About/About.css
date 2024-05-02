@@ -4,6 +4,7 @@
     align-items: center;
     justify-content: space-between;
     width: 90%;
+    text-align: center;
 }
 
 .about-left {
@@ -30,13 +31,18 @@
 
 .about h2 {
     color: black;
-    font-size: 35px;
+    font-size: 28px;
     margin: 10px 0;
-    max-width: 400px;
+    max-width: 550px;
+    text-align: center;
     
 }
 
 .about p{
-    color: darkolivegreen;
+    color: black;
     margin-bottom: 15px ;
+}
+
+.about img {
+    border-radius: 10px;
 }

@@ -8,7 +8,7 @@ const About = () => {
 
 
       <div className='about-left'>
-      <img src= {about_1} width={300} height={300} alt='' />
+      <img src= {about_1} width={400} height={400} alt='' />
         </div>
         <div className='about-right'>
           <h2>Green Soul is a grassroots community organisation centred on social inclusion.</h2>
