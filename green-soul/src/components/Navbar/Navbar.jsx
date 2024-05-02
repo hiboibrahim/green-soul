@@ -19,6 +19,7 @@ const Navbar = () => {
         <li>Home</li>
         <li>About Us</li>
         <li>Our projects</li>
+        <li>Get Involved</li>
         <li>Contact Us</li>
         <li>Upcoming Events</li>
         <li>Blog</li>
