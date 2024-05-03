@@ -29,13 +29,7 @@
     text-align: center;
 }
 
-.contact-col ul li {
-    display: flex;
-    align-items: center;
-    margin: 20px 0;
-    text-align: center;
 
-}
 
 .contact form input, .contact form textarea {
     display: block;
@@ -47,7 +41,6 @@
     margin-bottom: 15px;
     margin-top: 5px;
     resize: none;
-
 }
 .contact span {
     display: block;
