@@ -30,7 +30,7 @@ function Contact() {
   return (
     <div className='contact'>
       <div className='contact-col'>
-      <h3> Want to know more? Want help with your project?</h3>
+      <h3> Want to know more? Want help with our projects?</h3>
             <p>Please get in touch! We’d love to hear from you!  </p>
       
       <form onSubmit={onSubmit}>

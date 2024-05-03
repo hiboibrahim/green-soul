@@ -16,12 +16,25 @@ const Navbar = () => {
     <nav className={`container ${sticky? 'dark-nav' : ''}`}>
      {/* <img src={logo} alt="" className="logo" />*/}
       <ul>
-        <li>Home</li>
-        <li>About Us</li>
-        <li>Our projects</li>
-        <li>Get Involved</li>
-        <li>Contact Us</li>
-        <li>Upcoming Events</li>
+        <li>
+        <a href="/" >Home</a> 
+        </li>
+        
+        <li>
+        <a href="/about" >About Us</a> 
+        </li>
+        <li>
+        <a href="/ourprojects" >Home</a> 
+        </li>
+        <li>
+        <a href="/contact" >Get Involved</a> 
+        </li>
+        <li>
+        <a href="/contact" >Contact Us</a> 
+        </li>
+        <li>
+        <a href="/events" >Upcoming Events</a> 
+        </li>
         <li>Blog</li>
         <li>
           <button className="btn">Contact Us</button>

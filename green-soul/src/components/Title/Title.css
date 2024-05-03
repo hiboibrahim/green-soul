@@ -5,12 +5,12 @@
     font-size: 15px;
     font-weight: 600;
     text-transform: uppercase;
-    margin: 70px 0 30px;
+    margin: 50px 0 20px;
 }
 
 .title h2 {
     font-size: 32px;
-    color: darkgreen;
+    color: black;
     margin-top: 5px;
-    text-transform: none;
+    text-transform:uppercase;
 }

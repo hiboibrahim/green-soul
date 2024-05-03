@@ -8,7 +8,7 @@
 }
 
 body {
-  background: rgb(229, 244, 234);
+  background: #e5e5e5;
 }
 a {
   text-decoration: none;
@@ -23,8 +23,8 @@ a {
 }
 
 .btn {
-  background-color: rgb(224, 248, 228);
-  color:black;
+  background-color: #0A704E;
+  color:white;
   padding: 14px 25px;
   font-size: 16px;
   border-radius: 30px;
@@ -33,6 +33,3 @@ a {
   outline: 0;
 }
 
-.btn-dark {
-  background-color: rgb(16, 82, 16);
-}
