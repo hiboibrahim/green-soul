@@ -13,11 +13,11 @@ const App = () => {
       <Navbar/>
       <Hero/>
       <div className='container'>
-        <Title subTitle='About Us' title='Our Misson'/>
+        <Title  title='Our Misson'/>
       <About/>
-      <Title subTitle='Our Projects' title='Our community projects'/>
+      <Title  title='Our community projects'/>
       <OurProjects/>
-      <Title subTitle='Contact Us' title='Get in Touch' />
+      <Title  title='Get in Touch' />
       <Contact/>
     
       </div>

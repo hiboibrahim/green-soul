@@ -14,7 +14,7 @@ const OurProjects = () => {
         <img src={gallery_3} alt="" />
         <img src={gallery_4} alt="" />
       </div>
-      <button className="btn">Learn more </button>
+      <button className="btn btn-dark">Learn more </button>
     </div>
   );
 };

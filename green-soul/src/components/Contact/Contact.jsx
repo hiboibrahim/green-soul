@@ -1,9 +1,8 @@
 import React from 'react'
 import './Contact.css'
 
-const Contact = () => {
-  
-    const [result, setResult] = React.useState("");
+function Contact() {
+  const [result, setResult] = React.useState("");
 
   const onSubmit = async (event) => {
     event.preventDefault();
@@ -27,30 +26,30 @@ const Contact = () => {
       setResult(data.message);
     }
   };
-    <div className='contact '>
-        <div className='contact-col'>
-            <h3> Want to know more? Want help with your project?</h3>
+
+  return (
+    <div className='contact'>
+      <div className='contact-col'>
+      <h3> Want to know more? Want help with your project?</h3>
             <p>Please get in touch! We’d love to hear from you!  </p>
-           
-            <div className='contact-col'>
-                <form onSubmit={onSubmit}>
-                    <label>Your Name </label>
-                    <input type='text' name='name' placeholder='Enter your name' required/>
-                    <label>Email</label>
-                    <input type='text' name='email' placeholder='Enter your email' required/>
-                    <label>Subject</label>
-                    <input type='text' name='subject'/>
-                    <label>Your Message</label>
-                    <textarea name='message' rows='6' placeholder='Enter your message' required></textarea>
-                    <button type='submit' className='btn'>Send</button>
-                </form>
-                <span>{result}</span>
+      
+      <form onSubmit={onSubmit}>
 
-            </div>
+        <label>Name</label>
+        <input type="text" name="name" placeholder='Enter your name' required/>
+        <label>Email</label>
+        <input type="email" name="email" placeholder='Enter your email 'required/>
+        <label>Message</label>
+        <textarea name="message" placeholder='Enter your message' required></textarea>
 
-        </div>
-        </div>
-  
+        <button className='btn btn-dark' type="submit">Submit Form</button>
+
+      </form>
+      <span>{result}</span>
+      </div>
+
+    </div>
+  );
 }
 
-export default Contact
+export default Contact;

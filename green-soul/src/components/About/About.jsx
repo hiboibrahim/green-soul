@@ -16,7 +16,7 @@ const About = () => {
           <h3>We support marginalised groups, those from lower income backgrounds, women and people of colour in engaging in wider society.</h3>
           
           <p>Our mission is community led action that creates capacity for transformational shifts. We work for and within communities to create transformative experiences and provide opportunity for them to thrive. Our work focuses on building community resilience through holistic, healing practical action.</p>
-          <button className='btn'> Our Projects </button>
+          <button className='btn btn-dark'> Our Projects </button>
          
 
         </div>
