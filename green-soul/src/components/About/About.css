@@ -5,6 +5,7 @@
     justify-content: space-between;
     width: 90%;
     text-align: center;
+    
 }
 
 .about-left {
@@ -26,6 +27,9 @@
     font-weight: 600;
     font-size: 16px;
     color: black;
+    font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  
 
 }
 
@@ -35,6 +39,9 @@
     margin: 10px 0;
     max-width: 550px;
     text-align: center;
+    font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  
     
 }
 
@@ -42,8 +49,32 @@
     color: black;
     margin-bottom: 15px ;
     margin-top: 15px;
+    font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  text-align: justify;
+ 
 }
 
 .about img {
     border-radius: 10px;
+}
+
+/* Media Query */
+
+@media (max-width:800px){
+    .about {
+        flex-direction: column;
+
+    }
+    .about-left{
+        flex-basis: 100%;
+        margin: 20px;
+        order: 2;
+
+    }
+    .about-right{
+        flex-basis: 100%;
+
+    }
 }

@@ -32,6 +32,9 @@ nav ul li {
     transition: 0.5s;
 }
 
+.menu-icon {
+    display: none;
+}
 
 /* Media Queries */ 
 @media (max-width:1000px){
@@ -49,7 +52,7 @@ nav ul li {
     nav ul{
         position: fixed;
         top: 0;
-        right: 0;
+        right: -200px;
         bottom: 0;
         background: #6F9D80;
         z-index: -1;
@@ -61,5 +64,13 @@ nav ul li {
         display: block;
         margin: 25px 40px;
         
+    }
+    .menu-icon{
+        display: block;
+        width: 30px;
+        cursor: pointer;
+    }
+    .hide-mobile-menu {
+        right: -200px;
     }
 }
