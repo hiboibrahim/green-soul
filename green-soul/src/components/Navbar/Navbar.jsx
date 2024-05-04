@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./Navbar.css";
 import logo from "../../assets/green-soul-logo.png";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
 
@@ -17,29 +18,29 @@ const Navbar = () => {
      {/* <img src={logo} alt="" className="logo" />*/}
       <ul>
         <li>
-        <a href="/" >Home</a> 
+        <Link  to ='hero'>Home</Link>
+ 
+        </li>
+        <li>
+          <Link to='/about'>About Us</Link>
+        </li>
+       
+        <li>
+          <Link to='/getinvolved'>Get involved</Link>
+        </li>
+        <li>
+        <Link  to ='/events'>Upcoming Events </Link>
         </li>
         
+       
         <li>
-        <a href="/about" >About Us</a> 
+        <Link  to ='/blog'>Blog</Link>
         </li>
-        <li>
-        <a href="/ourprojects" >Home</a> 
-        </li>
-        <li>
-        <a href="/contact" >Get Involved</a> 
-        </li>
-        <li>
-        <a href="/contact" >Contact Us</a> 
-        </li>
-        <li>
-        <a href="/events" >Upcoming Events</a> 
-        </li>
-        <li>Blog</li>
         <li>
           <button className="btn">Contact Us</button>
         </li>
       </ul>
+      <img src="" alt="" />
     </nav>
   );
 };
