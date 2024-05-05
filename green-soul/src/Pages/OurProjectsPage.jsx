@@ -1,12 +1,13 @@
 import React from 'react'
 import Navbar from '../components/Navbar/Navbar'
 
-const events = () => {
+const ourprojects = () => {
   return (
     <>
-    <Navbar/>
+    <Navbar />
+    <h1>Our community projects</h1>
     </>
   )
 }
 
-export default events
+export default ourprojects

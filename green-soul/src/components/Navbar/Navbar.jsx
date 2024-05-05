@@ -26,7 +26,7 @@ const Navbar = () => {
      {/* <img src={logo} alt="" className="logo" />*/}
       <ul className={mobileMenu? '':'hide-mobile-menu'}>
         <li>
-        <Link  to ='hero'>Home</Link>
+        <Link  to ='/'>Home</Link>
  
         </li>
         <li>
@@ -39,7 +39,6 @@ const Navbar = () => {
         <li>
         <Link  to ='/events'>Upcoming Events </Link>
         </li>
-        
        
         <li>
         <Link  to ='/blog'>Blog</Link>

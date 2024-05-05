@@ -7,19 +7,28 @@ import Title from "./components/Title/Title";
 import OurProjects from "./components/OurProjects/OurProjects";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
+import AboutUs from './Pages/AboutUs';
+import ContactUs from './Pages/ContactUs';
+import OurProjectsPage from './Pages/OurProjectsPage';
+import Events from './Pages/Events';
+import Home from './Pages/Home';
+
 
 const App = () => {
   return (
-    <div>
-      <Navbar />
+    <>
+    <Navbar />
+    <div className="container">
+      
          <Routes>
-        <Route path="/" element={<home />} />
-        <Route path="/about" element={<about />} />
-        <Route path="contact" element={<contact />} />
-        <Route path="/ourprojects" element={<ourprojects />} />
-        <Route path="/events" element={<events />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<AboutUs />} />
+        <Route path="/contact" element={<ContactUs />} />
+        <Route path="/ourprojects" element={<OurProjectsPage />} />
+        <Route path="/events" element={<Events />} />
 
       </Routes>
+
       <Hero />
       <div className="container">
         <Title title="Our Misson" />
@@ -31,6 +40,7 @@ const App = () => {
         <Footer />
       </div>
     </div>
+    </>
   );
 };
 

@@ -1,12 +1,12 @@
 import React from 'react'
 import Navbar from '../components/Navbar/Navbar'
 
-const about = () => {
+const Home = () => {
   return (
-    <>
-    <Navbar />
-    </>
+   <>
+   <Navbar />
+   </>
   )
 }
 
-export default about-us
+export default Home

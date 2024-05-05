@@ -1,12 +1,12 @@
 import React from 'react'
 import Navbar from '../components/Navbar/Navbar'
 
-const home = () => {
+const Events = () => {
   return (
-   <>
-   <Navbar />
-   </>
+    <>
+    <Navbar/>
+    </>
   )
 }
 
-export default home
+export default Events
