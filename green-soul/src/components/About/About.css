@@ -46,13 +46,14 @@
 }
 
 .about p{
-    color: black;
+    color: rgb(68, 66, 66);
     margin-bottom: 15px ;
     margin-top: 15px;
     font-family: "Roboto", sans-serif;
   font-weight: 300;
   font-style: italic;
   text-align: justify;
+
  
 }
 
@@ -71,10 +72,13 @@
         flex-basis: 100%;
         margin: 20px;
         order: 2;
+        
 
     }
     .about-right{
         flex-basis: 100%;
+        justify-content: space-between;
+
 
     }
 }
