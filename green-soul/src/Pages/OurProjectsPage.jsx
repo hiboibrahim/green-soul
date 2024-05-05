@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from '../components/Navbar/Navbar'
 
-const ourprojects = () => {
+const OurProjectsPage = () => {
   return (
     <>
     <Navbar />
@@ -10,4 +10,4 @@ const ourprojects = () => {
   )
 }
 
-export default ourprojects
+export default OurProjectsPage

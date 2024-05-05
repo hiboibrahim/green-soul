@@ -5,6 +5,8 @@ const Events = () => {
   return (
     <>
     <Navbar/>
+    <h1>Upcoming Events</h1>
+
     </>
   )
 }

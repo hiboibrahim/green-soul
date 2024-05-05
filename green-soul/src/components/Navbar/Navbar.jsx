@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import "./Navbar.css";
 import logo1 from "../../assets/Logo1.png";
 import menu_icon from '../../assets/menu-icon.png'
+
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
@@ -34,7 +35,7 @@ const Navbar = () => {
         </li>
        
         <li>
-          <Link to='/getinvolved'>Get involved</Link>
+          <Link to='/ourprojects'>Our Projects</Link>
         </li>
         <li>
         <Link  to ='/events'>Upcoming Events </Link>
