@@ -61,6 +61,40 @@
     border-radius: 10px;
 }
 
+.about-main {
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    text-align: center;
+
+}
+
+.about-sub {
+    color: rgb(68, 66, 66);
+    margin-bottom: 15px ;
+    margin-top: 15px;
+    font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  text-align: justify;
+
+}
+
+.about-us {
+    width: 100%;
+    height: 50vh;
+    min-width: 50vh;
+    background: url('../../assets/our_team.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
 /* Media Query */
 
 @media (max-width:800px){

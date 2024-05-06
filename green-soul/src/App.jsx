@@ -20,7 +20,7 @@ const App = () => {
     <Navbar />
     <div >
       
-         <Routes>
+       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<AboutUs />} />
         <Route path="/contact" element={<ContactUs />} />
@@ -29,14 +29,14 @@ const App = () => {
 
       </Routes>
 
-      <Hero />
+      {/* <Hero /> */}
       <div className="container">
-        <Title title="Our Misson" />
+        {/* <Title title="Our Misson" />
         <About />
         <Title title="Our community projects" />
         <OurProjects />
-        <Title title="Get in Touch" />
-        <Contact />
+        <Title title="Get in Touch" /> */}
+        {/* <Contact /> */}
         <Footer />
       </div>
     </div>
