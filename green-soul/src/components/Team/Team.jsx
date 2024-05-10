@@ -6,6 +6,8 @@ const Team = () => {
 
         <h1 className='about-title'>Our People</h1>
     </div>
+    
+
   )
 }
 
