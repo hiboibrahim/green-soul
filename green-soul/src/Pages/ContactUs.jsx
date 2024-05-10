@@ -1,12 +1,14 @@
 import React from 'react'
 import Navbar from '../components/Navbar/Navbar'
+import Contact from '../components/Contact/Contact'
 
 const ContactUs = () => {
   return (
     <>
     <div >
-    <h1> Get in Touch with us </h1>
-    <p>We would love to hear from you! We welcome community volunteers on our projects. Please contact us for more information on upcoming projects </p>
+      <Navbar />
+    
+    <Contact />
     
     </div>
     </>

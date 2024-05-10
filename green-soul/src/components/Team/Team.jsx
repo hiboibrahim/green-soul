@@ -1,14 +1,54 @@
-import React from 'react'
+import React from "react";
+import "./Team.css";
+import team1 from '../../assets/team1.png'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Team = () => {
   return (
-    <div>
+ 
+    <section className="team">
+     
+      <div className="center">
+        <h1>Our People</h1>
+        <h2></h2>
+      </div>
+      <div className="team-content">
+        <div className="box">
+          <img src={team1} ></img>
+          <h3>Sanab Hersi</h3>
+          <h5>Founder of Greensoul</h5>
+          <div className="icons">
+            <p>fb icons</p>
+          </div>
+        </div>
+        <div className="box">
+          <img src={team1} ></img>
+          <h3>Sanab Hersi</h3>
+          <h5>Founder of Greensoul</h5>
+          <div className="icons">
+            <p>fb icons</p>
+          </div>
+        </div>
+        <div className="box">
+          <img src={team1} ></img>
+          <h3>Sanab Hersi</h3>
+          <h5>Founder of Greensoul</h5>
+          <div className="icons">
+            <p>fb icons</p>
+          </div>
+        </div>
+        <div className="box">
+          <img src={team1} ></img>
+          <h3>Sanab Hersi</h3>
+          <h5>Founder of Greensoul</h5>
+          <div className="icons">
+            <p>fb icons</p>
+          </div>
+        </div>
+      </div>
 
-        <h1 className='about-title'>Our People</h1>
-    </div>
-    
+    </section>
+  );
+};
 
-  )
-}
-
-export default Team
+export default Team;

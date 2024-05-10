@@ -84,8 +84,8 @@
 
 .about-text {
     width: 550px;
- 
     text-decoration:none;
+    text-align: justify;
 }
 
 .about-text h1 {
@@ -93,13 +93,14 @@
     font-size: 50px;
     text-transform: capitalize;
     margin-bottom: 20px;
+    text-align: center;
 }
 .about-text h5 {
     color: black;
-    font-size:20px ;
+    font-size:18px ;
     text-transform: capitalize;
     margin-bottom: 25px;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
 }
 
 .about-text  {
