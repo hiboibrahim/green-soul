@@ -28,6 +28,10 @@ function Contact() {
   };
 
   return (
+    <>
+    <div className='contact-page'>
+      
+      </div>
     <div className='contact'>
       <div className='contact-col'>
       <h3> Want to know more? Want help with our projects?</h3>
@@ -49,6 +53,7 @@ function Contact() {
       </div>
 
     </div>
+    </>
   );
 }
 

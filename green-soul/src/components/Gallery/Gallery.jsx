@@ -41,7 +41,7 @@ const Gallery = () => {
           style={{
             width: "100%",
             height: "100vh",
-            background: "grey",
+            background: "#e5e5e5",
             position: "fixed",
             display: "flex",
             justifyContent: "center",
