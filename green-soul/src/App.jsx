@@ -1,11 +1,6 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar/Navbar";
-import Hero from "./components/Hero/Hero";
-import About from "./components/About/About";
-import Title from "./components/Title/Title";
-import OurProjects from "./components/OurProjects/OurProjects";
-import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 import AboutUs from './Pages/AboutUs';
 import ContactUs from './Pages/ContactUs';

@@ -27,22 +27,22 @@ const Navbar = () => {
      {/* <img src={logo} alt="" className="logo" />*/}
       <ul className={mobileMenu? '':'hide-mobile-menu'}>
         <li>
-        <Link  to ='/'>Home</Link>
+        <Link  to ='/'>HOME</Link>
  
         </li>
         <li>
-          <Link to='/about'>About Us</Link>
+          <Link to='/about'>ABOUT US</Link>
         </li>
        
         <li>
-          <Link to='/ourprojects'>Our Projects</Link>
+          <Link to='/ourprojects'>OUR PROJECTS</Link>
         </li>
         <li>
-        <Link  to ='/events'>Upcoming Events </Link>
+        <Link  to ='/events'>UPCOMING EVENTS </Link>
         </li>
        
         <li>
-        <Link  to ='/blog'>Blog</Link>
+        <Link  to ='/blog'>BLOG</Link>
         </li>
         <li>
           <Link to='/contact'>
