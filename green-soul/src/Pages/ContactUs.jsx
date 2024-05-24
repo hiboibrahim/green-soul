@@ -5,7 +5,8 @@ import Contact from '../components/Contact/Contact'
 const ContactUs = () => {
   return (
     <>
-    <div >
+    <div className='contact-page'></div>
+    <div>
       <Navbar />
     
     <Contact />
