@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import "./Navbar.css";
 import logo from "../../assets/Logo1.png";
 import menu_icon from '../../assets/menu-icon.png'
-
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
