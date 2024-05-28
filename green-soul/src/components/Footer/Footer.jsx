@@ -2,6 +2,9 @@ import React from 'react';
 import './Footer.css';
 import { Button } from '../Button/Button';
 import { Link } from 'react-router-dom';
+import Socials from '../../components/Socials/Socials'
+
+
 
 
 function Footer() {
@@ -27,29 +30,28 @@ Subscribe to stay up to date with our upcoming projects        </p>
         <div className='footer-link-wrapper'>
           <div class='footer-link-items'>
            
-            <Link to='/sign-up'>About us</Link>
+            <Link to='/about'>About us</Link>
             
           </div>
           <div class='footer-link-items'>
             
-            <Link to='/'>Our Projects</Link>
+            <Link to='/ourprojects'>Our Projects</Link>
             
           </div>
         </div>
         <div className='footer-link-wrapper'>
           <div class='footer-link-items'>
-            <Link to='/'>Contact Us</Link>
+            <Link to='/contact'>Contact Us</Link>
            
           </div>
           <div class='footer-link-items'>
-            <Link to='/'>Instagram</Link>
-            <Link to='/'>Facebook</Link>
-            <Link to='/'>Twitter</Link>
           </div>
+          < Socials />
+
         </div>
       </div>
       <div class='social-media-wrap'>
-          <small class='website-rights'>Green Soul © 2020</small>
+          <small class='website-rights'>Green Soul © 2024</small>
           
         </div>
      

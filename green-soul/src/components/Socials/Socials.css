@@ -1,0 +1,22 @@
+.socials {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+    
+
+}
+.icon {
+    height: 30px;
+    width:30px;
+}
+.facebook {
+    color:rgb(117, 159, 245);
+}
+.twitter{
+    color:black;
+}
+.instagram {
+    color:rgb(159, 38, 104)
+}
