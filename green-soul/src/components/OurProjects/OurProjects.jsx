@@ -12,7 +12,7 @@ const OurProjects = () => {
 </div>
       <div className="projects-section">
         <div className="main">
-          <img src={coop} alt="food-cooperative" width={400} height={400}  />
+          <img src={coop} alt="food-cooperative" width={400} height={400}  className="coop-img" />
           <div className="about-text">
             <h1>Food Cooperative  </h1>
             <h5>Food co-ops are run by volunteers from the community, come in all shapes and sizes and can be found in a variety of settings, – from community centres, schools, universities, church halls or workplaces. Unlike food banks, Food Co-ops are not just for people in food crises. They are open to everyone.</h5>
