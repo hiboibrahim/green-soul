@@ -18,7 +18,7 @@ const AboutPage = () => {
           
     
     <div className='about-text'>
-    <h1>About Us </h1>
+    <h1>Who are We </h1>
              
              <h5> We support marginalised groups, those from lower income backgrounds, women and people of colour in engaging in wider society.</h5>
              
@@ -35,3 +35,7 @@ Our ‘asset-based’ approach means we choose not to focus on ill-health or pro
 }
 
 export default AboutPage
+
+
+
+

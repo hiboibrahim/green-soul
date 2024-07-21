@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from '../components/Navbar/Navbar'
 import Title from '../components/Title/Title'
-import Gallery from '../components/Gallery/Gallery'
+import OurProjects from '../components/OurProjects/OurProjects'
 
 const OurProjectsPage = () => {
   return (
@@ -9,7 +9,8 @@ const OurProjectsPage = () => {
     <Navbar />
       <br/>
       <Title title="Our community projects" />
-      <Gallery />
+      
+      <OurProjects />
 
     </>
   )
