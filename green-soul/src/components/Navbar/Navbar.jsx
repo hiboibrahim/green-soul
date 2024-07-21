@@ -3,6 +3,11 @@ import "./Navbar.css";
 import logo from "../../assets/Logo1.png";
 import menu_icon from '../../assets/menu-icon.png'
 import { Link } from "react-router-dom";
+import {
+  FiFacebook,
+  FiTwitter,
+  FiInstagram,
+} from "react-icons/fi";
 
 const Navbar = () => {
 
@@ -49,6 +54,13 @@ const Navbar = () => {
 
         </li>
       </ul>
+      <div className="socials">
+  
+        <FiFacebook />
+        <FiTwitter />
+        <FiInstagram />
+
+        </div>
 
       <img src={menu_icon} alt="" className="menu-icon" onClick={toggleMenu} />
     </nav>
