@@ -1,6 +1,7 @@
 import React from "react";
 import "./Team.css";
 import team1 from '../../assets/team1.png'
+import team2 from '../../assets/team2.png'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Team = () => {
@@ -22,7 +23,7 @@ const Team = () => {
           </div>
         </div>
         <div className="box">
-          <img src={team1} ></img>
+          <img src={team2} ></img>
           <h3>Sanab Hersi</h3>
           <h5>Founder of Greensoul</h5>
           <div className="icons">
@@ -37,14 +38,7 @@ const Team = () => {
             <p>fb icons</p>
           </div>
         </div>
-        <div className="box">
-          <img src={team1} ></img>
-          <h3>Sanab Hersi</h3>
-          <h5>Founder of Greensoul</h5>
-          <div className="icons">
-            <p>fb icons</p>
-          </div>
-        </div>
+        
       </div>
 
     </section>
