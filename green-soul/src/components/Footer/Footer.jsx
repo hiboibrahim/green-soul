@@ -8,6 +8,7 @@ import {
 } from "react-icons/fi";
 
 
+
 const Footer = () => {
   return (
     <div className="footer">
