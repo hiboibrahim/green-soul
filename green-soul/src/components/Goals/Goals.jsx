@@ -3,40 +3,47 @@ import "./Goals.css";
 import { FaPaintBrush } from "react-icons/fa";
 import { GiPlantRoots } from "react-icons/gi";
 import { IoFitnessOutline } from "react-icons/io5";
+import Fade from 'react-reveal/Fade';
+import art from '../../assets/goals-art.png'
+
 
 const Goals = () => {
+
+  
   return (
-    <div className="goals">
-      <div className="title">
-          <p>Our Goals</p>
+    <div className="goals-title">
+      
+      <div className="goals">
+        <Fade>
+        <div className="goals-fadein">
+          <img src={art} alt="arts image" />
+          <h3>Giving access and opportunity to communities of colour in the arts/creative sector</h3>
 
-          
-          </div>
-          <div className="goal-1">
-             <FaPaintBrush size={50}  />
-            <p>
-            Giving access and opportunity to communities of colour in the arts/creative sector.
+        </div>
+        <div className="goals-fadein">
+        <img src={art} alt="arts image" />
+        <h3>Greening and climate action resource</h3>
 
-            </p>
+        </div>
 
-          </div>
-           
-            <div className="goal-2 ">
-              <GiPlantRoots size={50}  />
-              <p>
-              Greening and climate action resources .
-              </p>
-            </div>
-            
-            <div className="goal-3">
-              <IoFitnessOutline size={50}  />
-              <p>
-              Improve mental and physical health and wellbeing
-              </p>
-            </div>
-     
+        <div className="goals-fadein">
+        <img src={art} alt="arts image" />
+
+          <h3>Improve mental and physical health and wellbeing</h3>
+
+        </div>
+        </Fade>
+
       </div>
-  );
+
+    </div>
+    
+
+  )
+    
+      
 };
 
 export default Goals;
+
+

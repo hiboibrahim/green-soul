@@ -6,6 +6,7 @@ import About from '../components/About/About'
 import OurProjects from '../components/OurProjects/OurProjects'
 import Contact from '../components/Contact/Contact'
 import Goals from '../components/Goals/Goals'
+import Funders from '../components/Funders/Funders'
 
 const Home = () => {
   return (
@@ -14,7 +15,9 @@ const Home = () => {
          <div className="container">
         <Title title="Our Misson" />
         <About />
+        <Title title='Our goals' />
         <Goals />
+        <Funders />
         <Contact />
 
       </div>
