@@ -1,65 +1,58 @@
 import React, { useEffect, useState } from "react";
 import "./Navbar.css";
 import logo from "../../assets/Logo1.png";
-import menu_icon from '../../assets/menu-icon.png'
+import menu_icon from "../../assets/menu-icon.png";
 import { Link } from "react-router-dom";
-import {
-  FiFacebook,
-  FiTwitter,
-  FiInstagram,
-} from "react-icons/fi";
+import { FiFacebook, FiTwitter, FiInstagram } from "react-icons/fi";
+import {FaBars } from 'react-icons/fa'
 
 const Navbar = () => {
 
-  const [sticky, setSticky] = useState(false);
-  useEffect (() => {
-    
-  },[]);
+  const [isOpen,setIsOpen] = useState(false);
 
-      const [mobileMenu, setMobileMenu] = useState(false);
-      const toggleMenu = ()=> {
-        mobileMenu ? setMobileMenu(false) : setMobileMenu(true);
-
-      }
+  const toggleMenu = () => {
+    setIsOpen(!isOpen);
+  }
 
   return (
-    <nav className={`container ${sticky? 'dark-nav' : ''}`}>
-     <img src={logo} alt="" className="logo" />
-      <ul className={mobileMenu? '':'hide-mobile-menu'}>
-        <li>
-        <Link  to ='/'>HOME</Link>
- 
-        </li>
-        <li>
-          <Link to='/about'>ABOUT US</Link>
-        </li>
-       
-        <li>
-          <Link to='/ourprojects'>OUR PROJECTS</Link>
-        </li>
-        <li>
-        <Link  to ='/events'>UPCOMING EVENTS </Link>
-        </li>
-       
-        <li>
-        <Link  to ='/blog'>BLOG</Link>
-        </li>
-        <li>
-          <Link to='/contact'>
-          <button className="btn">Contact Us</button></Link>
+    <div className="container-nav">
+      <div className="logo">
+        <img src={logo} alt="logo" />
 
+      </div>
+      
+      <ul className= {isOpen ? "nav-link active" : "nav-link"}>
+      <li>
+          <Link to="/" className="active">HOME</Link>
         </li>
+        <li>
+          <Link to="/about">ABOUT US</Link>
+        </li>
+
+        <li>
+          <Link to="/ourprojects">OUR PROJECTS</Link>
+        </li>
+        <li>
+          <Link to="/events">UPCOMING EVENTS </Link>
+        </li>
+
+        
+        <li>
+          <Link to="/contact">
+            <button className="btn">Connect</button>
+          </Link>
+        </li>
+
+
       </ul>
-      <div className="socials">
-  
-        <FiFacebook />
-        <FiTwitter />
-        <FiInstagram />
+      <div className="menu-icon" onClick={toggleMenu}>
+        <FaBars />
 
-        </div>
+      </div>
 
-      <img src={menu_icon} alt="" className="menu-icon" onClick={toggleMenu} />
-    </nav>
+    </div>
+    
+     
   );
 };
 
