@@ -25,7 +25,11 @@ margin: 20px;
 }
 
 .goals h3 {
-  font-size: 14px;
+  font-size: 16px;
+  max-width: 80%;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  font-style: italic;
 }
 .goals-title {
   display: flex;

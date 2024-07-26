@@ -17,6 +17,8 @@ const Home = () => {
         <About />
         <Title title='Our goals' />
         <Goals />
+        <Title title='Our Funders & suppporters' />
+
         <Funders />
         <Contact />
 

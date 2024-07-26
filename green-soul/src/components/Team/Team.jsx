@@ -37,6 +37,16 @@ const Team = () => {
           <div className="icons">
             <p>fb icons</p>
           </div>
+          
+        </div>
+        <div className="box">
+          <img src={team2} ></img>
+          <h3>Sanab Hersi</h3>
+          <h5>Founder of Greensoul</h5>
+          <div className="icons">
+            <p>fb icons</p>
+          </div>
+          
         </div>
         
       </div>
