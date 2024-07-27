@@ -7,6 +7,7 @@ import OurProjects from '../components/OurProjects/OurProjects'
 import Contact from '../components/Contact/Contact'
 import Goals from '../components/Goals/Goals'
 import Funders from '../components/Funders/Funders'
+import Review from '../components/Review/Review'
 
 const Home = () => {
   return (
@@ -17,7 +18,9 @@ const Home = () => {
         <About />
         <Title title='Our goals' />
         <Goals />
+        <Review />
         <Title title='Our Funders & suppporters' />
+        
 
         <Funders />
         <Contact />

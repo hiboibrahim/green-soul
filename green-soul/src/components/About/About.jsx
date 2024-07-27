@@ -1,12 +1,14 @@
 import React from 'react'
 import './About.css'
 import aboutimg from '../../assets/communitygardening.jpg'
+import Fade from 'react-reveal/Fade';
+
 
 const About = () => {
   return (
     <div className='about'>
 
-
+    <Fade>
       <div className='about-left'>
       <img src= {aboutimg} width={450} height={400} alt='' />
         </div>
@@ -24,7 +26,7 @@ We firmly believe in the power of community, environmental stewardship, artistic
         </div>
 
 
-
+  </Fade>
 
 
     </div>
