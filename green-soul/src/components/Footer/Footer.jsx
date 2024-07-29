@@ -12,31 +12,44 @@ import {
 const Footer = () => {
   return (
     <div className="footer">
-      <img src={footerbg} alt="footer-bg" className="footer-bg" />
-   
-      <div className="footer-container ">
-      <ul className="footer-menu">
-<li className="footer-items"><a href="">Home</a></li>
-<li className="footer-items"><a href="">About Us</a></li>
-<li className="footer-items"><a href="">Our Projects</a></li>
-<li className="footer-items"><a href="">Food Co-operative</a></li>
-<li className="footer-items"><a href="">Get in touch</a></li>
+      <div className="top">
+        <div>
+          <h2>Green Soul</h2>
+          <p>Nurturing Communities, Cultivating Change.</p>
+        </div>
+        <div className="social-icons">
+          <a href="/">
+          <FiFacebook />
+          </a>
+          <a href="/">
+            <FiInstagram />
+          </a>
+          <a href="/">
+            <FiTwitter />
+          </a>
 
-</ul>
-<div class="copyright-text">
-                            <p>Copyright &copy; 2024, Green Soul All Right Reserved </p>
-                           
-                        </div>
-         
+        </div>
       </div>
-      <div className="socials">
-  
-  <FiFacebook />
-  <FiTwitter />
-  <FiInstagram />
+      <div className="bottom"> 
+        <div>
+          <a>Home</a>
+        </div>
+        <div>
+          <a>About Us</a>
+        </div>
+        <div>
+          <a>Our Projects</a>
+        </div>
+        <div>
+          <a>Get in touch</a>
+        </div>
 
-  </div>
-      
+      </div>
+   
+   
+  
+  
+ 
     </div>
   );
 };
