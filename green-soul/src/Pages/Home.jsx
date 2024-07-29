@@ -18,11 +18,12 @@ const Home = () => {
         <About />
         <Title title='Our goals' />
         <Goals />
+        <Title title='What our community says' />
         <Review />
-        <Title title='Our Funders & suppporters' />
+        
         
 
-        <Funders />
+       
         <Contact />
 
       </div>
