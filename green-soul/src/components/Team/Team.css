@@ -7,6 +7,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    padding:auto;
 }
 
 .team-content {
@@ -67,6 +68,7 @@
         width:100%;
         height: auto;
         padding: 99px 2%;
+        flex-direction: column;
 
     }
     .center h1 {

@@ -22,12 +22,11 @@
 
 }
 
-.social-icons {
+.social-icons a {
   color: black;
   font-size: 2rem;
   margin-left: 1rem;
-
-
+  margin: 5px;
 }
 .social-icons:hover{
   color: darkgreen;
