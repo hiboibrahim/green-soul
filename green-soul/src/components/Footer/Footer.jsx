@@ -6,6 +6,7 @@ import {
   FiTwitter,
   FiInstagram,
 } from "react-icons/fi";
+import { FaSlack } from "react-icons/fa"
 
 
 
@@ -13,22 +14,8 @@ const Footer = () => {
   return (
     <div className="footer">
       <div className="top">
-        <div>
-          <h2>Green Soul</h2>
-          <p>Nurturing Communities, Cultivating Change.</p>
-        </div>
-        <div className="social-icons">
-          <a href="/">
-          <FiFacebook />
-          </a>
-          <a href="/">
-            <FiInstagram />
-          </a>
-          <a href="/">
-            <FiTwitter />
-          </a>
-
-        </div>
+        
+       
       </div>
       <div className="bottom"> 
         <div>
@@ -43,12 +30,21 @@ const Footer = () => {
         <div>
           <a>Get in touch</a>
         </div>
+        
 
       </div>
    
    
   
-  
+  <div className="social">
+          <h6>Follow us </h6>
+          <FiFacebook />
+            <FiInstagram />
+            <FiTwitter />
+            <FaSlack />
+
+        </div>
+        
  
     </div>
   );

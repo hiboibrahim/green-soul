@@ -22,18 +22,25 @@
 
 }
 
-.social-icons a {
-  color: black;
-  font-size: 2rem;
-  margin-left: 1rem;
-  margin: 5px;
+.social {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 10px;
+  padding-bottom: 0px;
+  border-top: 1px solid #eee;
+  margin-top: 5px;
+  font-size: 18px;
 }
-.social-icons:hover{
-  color: darkgreen;
+.social h6 {
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 16px;
 }
-
 .bottom {
-  padding-top: 2rem;
+  padding-top: 1rem;
   text-align: start;
   display: flex;
   justify-content: space-between;
