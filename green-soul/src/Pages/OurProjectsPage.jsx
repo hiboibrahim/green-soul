@@ -8,7 +8,6 @@ const OurProjectsPage = () => {
     <>
     <Navbar />
       <br/>
-      <Title title="Our community projects" />
       
       <OurProjects />
 

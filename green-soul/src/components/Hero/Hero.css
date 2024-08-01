@@ -3,7 +3,7 @@
     height: 100vh;
     min-width: 100vh;
     background:
-     url('../../assets/community.avif');
+     url('../../assets/hero2.png');
     background-size: cover;
     background-position: center;
     color: white;
@@ -17,13 +17,15 @@
 .hero-text {
     text-align: center;
     max-width: 800px;
+    color: rgb(121, 115, 115);
 
 
 }
 
 .hero-text h1 {
-    font-size: 60px;
+    font-size: 40px;
     font-weight: 600;
+    padding-bottom: 20px;
 }
 
 .hero-text p {
@@ -31,6 +33,7 @@
     margin: 10px auto 20px ;
     line-height: 1.4;
 }
+
 
 /* Media query */
 

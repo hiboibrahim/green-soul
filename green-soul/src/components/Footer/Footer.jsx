@@ -7,12 +7,14 @@ import {
   FiInstagram,
 } from "react-icons/fi";
 import { FaSlack } from "react-icons/fa"
+import footerline from '../../assets/footer-line.png'
 
 
 
 const Footer = () => {
   return (
     <div className="footer">
+      <img className="footer-line" src={footerline}  />
       <div className="top">
         
        
@@ -28,7 +30,7 @@ const Footer = () => {
           <a>Our Projects</a>
         </div>
         <div>
-          <a>Get in touch</a>
+          <a>Get in Touch</a>
         </div>
         
 
@@ -37,11 +39,12 @@ const Footer = () => {
    
   
   <div className="social">
-          <h6>Follow us </h6>
-          <FiFacebook />
-            <FiInstagram />
-            <FiTwitter />
-            <FaSlack />
+         <a href="/"> <FiFacebook /></a>
+            <a href="/"><FiInstagram /></a>
+           <a href="/"> <FiTwitter /></a>
+           <a href="/">  <FaSlack /></a>
+
+           
 
         </div>
         

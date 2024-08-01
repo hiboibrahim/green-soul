@@ -16,14 +16,14 @@ const Team = () => {
         <div className="box">
           <img src={team1}></img>
           <h3>Sanab Hersi</h3>
-          <h5>Founder of Greensoul</h5>
+          <h5>Director</h5>
           <div className="icons">
             <p>fb icons</p>
           </div>
         </div>
         <div className="box">
           <img src={team2}></img>
-          <h3>Sanab Hersi</h3>
+          <h3>Hibo Ibrahim</h3>
           <h5>Founder of Greensoul</h5>
           <div className="icons">
             <p>fb icons</p>
@@ -31,7 +31,7 @@ const Team = () => {
         </div>
         <div className="box">
           <img src={team1}></img>
-          <h3>Sanab Hersi</h3>
+          <h3>Safiyyah</h3>
           <h5>Founder of Greensoul</h5>
           <div className="icons">
             <p>fb icons</p>
@@ -39,7 +39,7 @@ const Team = () => {
         </div>
         <div className="box">
           <img src={team2}></img>
-          <h3>Sanab Hersi</h3>
+          <h3>Kadra Ahmed</h3>
           <h5>Founder of Greensoul</h5>
           <div className="icons">
             <p>fb icons</p>

@@ -7,11 +7,9 @@ const Hero = () => {
     
     <div className='hero container'>
       <div className='hero-text'>
-      <h1>We ignite community led action </h1>
-      <p>
-*Advocating for the rights of people and shedding light upon the need for just and equitable systems, access to services and the promotion of community centred health
-</p>
-      <button className='btn'> Our Projects </button>
+      <h1>Rooted in Community, Growing Together for a Better Tomorrow.</h1>
+   
+      <button className='btn btn-hero' > Our Projects </button>
 
 
         </div> 

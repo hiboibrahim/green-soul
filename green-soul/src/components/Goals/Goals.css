@@ -6,11 +6,16 @@
 
 .goals .box {
   box-shadow:0 0 20px 0 rgb(112 121 138 / 18%) ;
-  border-radius: 6px;
+  border-radius: 8px;
   text-align: center;
   padding: 30px;
   cursor: pointer;
 
+}
+
+.box h4 {
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 .background {
   padding: 80px 0;
@@ -29,7 +34,6 @@
 
 .goals img {
   box-shadow: 0 0 20px 0 rgb(112, 121, 138 /18%);
-  border-radius: 6px;
   width: 200px;
   height: 200px;
   margin: auto;
@@ -39,8 +43,17 @@
 
 
 @media screen  and (max-width:1042px) {
-  .goals {
+  .goals .box {
     flex-direction: column;
-  align-items: center;
- }
+    width:100%;
+        height: auto;
+        padding: 99px 2%;
   
+ }
+ .goals img {
+  width: 150px;
+  width: 150px;
+ }
+
+  
+}

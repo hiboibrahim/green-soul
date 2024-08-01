@@ -2,6 +2,7 @@ import React from 'react'
 import './About.css'
 import aboutimg from '../../assets/communitygardening.jpg'
 import Fade from 'react-reveal/Fade';
+import { Link } from 'react-router-dom'
 
 
 const About = () => {
@@ -20,7 +21,11 @@ const About = () => {
           <p>Our mission is community led action that creates capacity for transformational shifts. We work for and within communities to create transformative experiences and provide opportunity for them to thrive. Our work focuses on building community resilience through holistic, healing practical action. At Green Soul, we are dedicated to fostering a brighter, more inclusive future for all. 
 
 We firmly believe in the power of community, environmental stewardship, artistic expression, and healing as catalysts for positive change. Our mission is to provide opportunities and create safe spaces for people of colour to engage in forms of personal growth.</p>
-          <button Link to='/about' className='btn'> Learn more about us</button>
+<Link to="/about">
+<button Link to='/about' className='btn'> Learn more about us</button>
+          </Link>
+          
+          
          
 
         </div>
