@@ -41,6 +41,7 @@
 .container-nav ul li:hover,
 .container-nav ul li.active {
     background-color: rgb(179, 177, 177);
+    
 }
 
 .menu-icon{

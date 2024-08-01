@@ -23,17 +23,17 @@ const Navbar = () => {
       
       <ul className= {isOpen ? "nav-link active" : "nav-link"}>
       <li>
-          <Link to="/" className="active">HOME</Link>
+          <Link to="/" className="active">Home</Link>
         </li>
         <li>
-          <Link to="/about">ABOUT US</Link>
+          <Link to="/about">About Us</Link>
         </li>
 
         <li>
-          <Link to="/ourprojects">OUR PROJECTS</Link>
+          <Link to="/ourprojects">Our Projects</Link>
         </li>
         <li>
-          <Link to="/events">UPCOMING EVENTS </Link>
+          <Link to="/events">Blog </Link>
         </li>
 
         
