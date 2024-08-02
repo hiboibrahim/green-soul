@@ -83,6 +83,12 @@
     position: fixed;
 }
 
+.main img {
+    transform: rotate(180deg);
+}
+
+
+
 
 .about-text {
     width: 550px;

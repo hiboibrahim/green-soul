@@ -7,14 +7,12 @@ import {
   FiInstagram,
 } from "react-icons/fi";
 import { FaSlack } from "react-icons/fa"
-import footerline from '../../assets/footer-line.png'
 
 
 
 const Footer = () => {
   return (
     <div className="footer">
-      <img className="footer-line" src={footerline}  />
       <div className="top">
         
        
@@ -43,10 +41,27 @@ const Footer = () => {
             <a href="/"><FiInstagram /></a>
            <a href="/"> <FiTwitter /></a>
            <a href="/">  <FaSlack /></a>
+           <div
+                className="position-relative mx-auto"
+                style={{ maxWidth: 400 }}
+              >
+                <input
+                  className="newsletter-form"
+                  type="text"
+                  placeholder="Your email"
+                />
+                <button
+                  type="button"
+                  className="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2"
+                >
+                  SignUp
+                </button>
+                </div>
 
            
 
         </div>
+       
         
  
     </div>
