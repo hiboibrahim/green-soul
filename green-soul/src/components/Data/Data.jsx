@@ -1,12 +1,12 @@
 
 export const goals = [
     {
-      cover: "../../assets/value1.png",
+      cover: "/assets/value1.png",
       name: "Equity and Inclusion",
       total: "Empowering all voices through inclusive and accessible art.",
     },
     {
-      cover: "../../assets/value2.png",
+      cover: "./assets/value2.png",
       name: "Community Empowerment",
       total: "Building stronger communities and enhancing well-being through support and Education.",
     },
