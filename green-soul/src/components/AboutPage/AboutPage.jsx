@@ -14,7 +14,7 @@ const AboutPage = () => {
     <div className='about-section'>
 
     <div className='main'>
-            <img src={Logo} width={400} height={400} alt="logo"></img>
+            <img className='spin-logo' src={Logo} width={400} height={400} alt="logo" />
           
     
     <div className='about-text'>

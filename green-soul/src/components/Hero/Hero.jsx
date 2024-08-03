@@ -13,7 +13,7 @@ const Hero = () => {
 
       <h1>Rooted in Community, Growing Together for a Better Tomorrow.</h1>
     <Link to='/ourprojects'> 
-         <button className='btn btn-hero'  > Our Projects </button>
+         <button className='btn btn-hero'  > Learn More </button>
 
     </Link>
 

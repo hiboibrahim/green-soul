@@ -3,20 +3,26 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 90%;
+    width: 85%;
     text-align: center;
 
+    padding-left: 20px;
     
 }
 
 .activities-left {
-    flex-basis: 56%;
+    flex-basis: 40%;
       
+}
+
+.activities-left img {
+    border-radius: 10px;
+    padding-top: 40px;
 }
 
 
 .activities-right{
-    flex-basis: 40%;
+    flex-basis: 56%;
 }
 
 

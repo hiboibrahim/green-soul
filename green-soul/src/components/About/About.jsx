@@ -22,7 +22,7 @@ const About = () => {
 
 We firmly believe in the power of community, environmental stewardship, artistic expression, and healing as catalysts for positive change. Our mission is to provide opportunities and create safe spaces for people of colour to engage in forms of personal growth.</p>
 <Link to="/about">
-<button Link to='/about' className='btn'> Learn more about us</button>
+<button Link to='/ourprojects' className='btn'> Our Projects</button>
           </Link>
           
           

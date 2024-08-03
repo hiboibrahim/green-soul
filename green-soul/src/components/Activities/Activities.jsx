@@ -5,9 +5,7 @@ import activities from "../../assets/activities.png";
 const Activities = () => {
   return (
     <div className="activities">
-      <div className="activities-left">
-        <img src={activities} width={500} height={500} alt="" />
-      </div>
+      
       <div className="activities-right">
         <h1>Community Activities</h1>
         <h5>
@@ -31,6 +29,9 @@ const Activities = () => {
           <p> Climate Conversations: Facilitate
           discussions on environmental issues and sustainability. </p>
 
+      </div>
+      <div className="activities-left">
+        <img src={activities} width={600} height={600} alt="" />
       </div>
     </div>
   );

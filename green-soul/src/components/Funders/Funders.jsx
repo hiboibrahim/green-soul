@@ -6,14 +6,24 @@ import funders3 from '../../assets/funders/funders3.jpg'
 import funders4 from '../../assets/funders/funders4.webp'
 import funders6 from '../../assets/funders/funders6.jpg'
 import Fade from 'react-reveal/Fade';
-
+import { Link } from 'react-router-dom'
 
 
 const Funders = () => {
 
-  return (
+  return ( 
+    <>
+  <div className='funder-text'>
+        <h4>
+        We deeply appreciate the generous support of our funders and supporters, whose contributions enable Green Soul to make a meaningful impact in our community.
+      Interested in making a difference? Fund Green Soul to support vital community programs and help us combat food insecurity and promote well-being.
+      
+      </h4>
+      </div>
     <div className='funders'>
+      
       <Fade>
+        
         <div className='funders-item'>
            <img src={funders1} alt='' />
 
@@ -32,6 +42,12 @@ const Funders = () => {
         </div>
         <div className='funders-item'>
         <img src={funders6} alt='' />
+
+        <div className='btn-volunteer'>
+          <Link to="/contact">
+            <button className="btn" >Be a Funder</button>
+          </Link>
+        </div>
       
 
 
@@ -40,6 +56,7 @@ const Funders = () => {
         </Fade>
 
     </div>
+    </>
   )
 }
 
