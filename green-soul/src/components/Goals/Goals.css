@@ -2,19 +2,22 @@
   border-radius: 10px;
   box-shadow: 5px 5px 5px rgba(141, 141, 141, 0.774);
   max-width: 250px;
-  max-height: 80%;
+  height: ;
   margin: auto;
   padding: 20px;
-  margin: 10px;
   text-align: center;
   display: inline-block;
   margin: 40px;
   align-items: center;
   background-color: rgb(242, 239, 239);
   cursor: pointer;
+  transition: all 0.3s;
 
 }
 
+.goals-card:hover {
+  transform:scale(1.15) ;
+}
 .card-container {
   padding: 40px 0;
   position: relative;
@@ -37,42 +40,6 @@ border-radius: 50%;
 }
 
 
-.goals .box {
-  box-shadow:0 0 20px 0 rgb(112 121 138 / 18%) ;
-  border-radius: 8px;
-  text-align: center;
-  padding: 30px;
-  cursor: pointer;
-
-}
-
-.box h4 {
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-.background {
-  padding: 40px 0;
-  position: relative;
-  background: #fafafa;
-  right: 100px ;
-}
-.grid5 {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  grid-gap: 40px;
-}
-.mtop {
-  margin-top: 50px;
-}
-
-.goals img {
-  box-shadow: 0 0 20px 0 rgb(112, 121, 138 /18%);
-  width: 200px;
-  height: 200px;
-  margin: auto;
-  border: 1px solid grey;
-  border-radius: 50%;
-}
 
 
 @media screen  and (max-width:1042px) {
