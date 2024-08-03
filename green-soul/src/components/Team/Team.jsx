@@ -2,7 +2,7 @@ import React from "react";
 import "./Team.css";
 import team1 from "../../assets/team1.png";
 import team2 from "../../assets/team2.png";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 import { Link } from 'react-router-dom'
 
 const Team = () => {
@@ -16,33 +16,33 @@ const Team = () => {
         <div className="box">
           <img src={team1}></img>
           <h3>Sanab Hersi</h3>
-          <h5>Director</h5>
+          <h5>Founder/Director</h5>
           <div className="icons">
-            <p>fb icons</p>
+            <p></p>
           </div>
         </div>
         <div className="box">
           <img src={team2}></img>
           <h3>Hibo Ibrahim</h3>
-          <h5>Founder of Greensoul</h5>
+          <h5>Operations</h5>
           <div className="icons">
-            <p>fb icons</p>
+            <p></p>
           </div>
         </div>
         <div className="box">
           <img src={team1}></img>
           <h3>Safiyyah</h3>
-          <h5>Founder of Greensoul</h5>
+          <h5>Community Engagement</h5>
           <div className="icons">
-            <p>fb icons</p>
+            <p></p>
           </div>
         </div>
         <div className="box">
           <img src={team2}></img>
           <h3>Kadra Ahmed</h3>
-          <h5>Founder of Greensoul</h5>
+          <h5>Food Coordinator</h5>
           <div className="icons">
-            <p>fb icons</p>
+            <p></p>
           </div>
         </div>
         

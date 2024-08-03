@@ -11,7 +11,7 @@
   margin-top: 150px;
   display: flex;
   width: 100%;
-  border-radius: 30% 0;
+  border-radius: 0  30% ;
   
 
 }
@@ -24,7 +24,7 @@
 }
 
 .footer div h3 {
-  font-weight:300 ;
+  font-size: 14px ;
   margin-bottom: 30px;
   letter-spacing: 1px;
 }
@@ -76,47 +76,7 @@ border: none;
 .social-icons a:hover{
 background-color: darkgreen;
 }
-}
 
-
-.bottom div {
-  display: flex;
-  flex-direction: column;
-}
-.bottom a {
-  text-decoration: none;
-  color: black;
-  padding-bottom: 2rem;
-  font-size: 1.1rem;
-}
-
-.copyright-text{
-  font-size: 14px;
-  color: black;
-  margin: 0 ;
-  transition: 0.5s;
-  text-decoration: none;
-  opacity: 0.75;
-  font-weight: 300;
-padding-left: 600px;
-
-h4 {
-  font-size: 1.2rem;
-  padding-bottom: 0.7rem;
-}
-
-p {
-  font-size: 20px;
-}
-
-.newsletter-form {
-  width: 100%;
-  padding: 12px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 1px solid #ccc;
-  box-sizing: border-box;
-}
 
 
 /* Media Query */
