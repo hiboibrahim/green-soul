@@ -1,0 +1,55 @@
+.community-meals {
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 85%;
+    text-align: center;
+
+    padding-left: 20px;
+}
+
+.community-right {
+    flex-basis: 56%;
+    padding: 30px;
+
+}
+.community-left {
+    flex-basis: 40%;
+    padding-top: 70px;
+      
+}
+
+.community-left img {
+    border-radius: 20px;
+
+}
+
+
+.community-right h1 {
+    color: black;
+    font-size: 50px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.community-right h5{
+    color: black;
+    font-size:18px ;
+    margin-bottom: 25px;
+    letter-spacing: 1px;
+    text-align: justify;
+}
+
+.community-right p{
+    width: 550px;
+    text-decoration: none ;
+    text-align: justify;
+    font-size: 18px;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+    padding-left: 15px;
+    
+}
+

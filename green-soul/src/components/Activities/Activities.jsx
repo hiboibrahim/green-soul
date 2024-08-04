@@ -15,23 +15,22 @@ const Activities = () => {
         </h5>
             
           
-          <p>Sip and Social Groups: Foster community
+          <p><span style={{"font-weight" : "bold"}}>Sip and Social Groups:</span> Foster community
           connections through casual meet-ups and discussions.</p>
-          <p>Family
-          Activities: Gardening and Forest School: Engage families in hands-on
+          <p><span style={{"font-weight" : "bold"}}>Family Activities:</span> Gardening and Forest School: Engage families in hands-on
           environmental education and outdoor activities.</p>
-          <p> Food and Nutrition
-          Support: Whole-Foods Co-operative: Provide access to affordable,
+          <p> <span style={{"font-weight" : "bold"}}>Food and Nutrition
+          Support:</span> Whole-Foods Co-operative: Provide access to affordable,
           fresh, and dry goods. </p>
-          <p> Creative and
-          Environmental Engagement: Arts and Crafts Sessions: Encourage
+          <p> <span style={{"font-weight" : "bold"}}>Creative and
+          Environmental Engagement:</span> Arts and Crafts Sessions to encourage
           creativity and self-expression.</p>
-          <p> Climate Conversations: Facilitate
+          <p> <span style={{"font-weight" : "bold"}}>Climate Conversations: </span>Facilitate
           discussions on environmental issues and sustainability. </p>
 
       </div>
       <div className="activities-left">
-        <img src={activities} width={600} height={600} alt="" />
+        <img src={activities} width={600} height={800} alt="" />
       </div>
     </div>
   );
