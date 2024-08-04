@@ -4,7 +4,7 @@ import logo from "../../assets/Logo1.png";
 import menu_icon from "../../assets/menu-icon.png";
 import { Link } from "react-router-dom";
 import { FiFacebook, FiTwitter, FiInstagram } from "react-icons/fi";
-import {FaBars } from 'react-icons/fa'
+import {FaBars, FaSlack } from 'react-icons/fa'
 
 const Navbar = () => {
 
@@ -16,7 +16,11 @@ const Navbar = () => {
 
   return (
     <div className="container-nav">
-      <div className="logo">
+      <div className="social-icons top">
+        <a><FiFacebook /></a>
+       <a><FiInstagram /></a> 
+       <a><FiTwitter /></a> 
+       <a><FaSlack /></a> 
        
 
       </div>

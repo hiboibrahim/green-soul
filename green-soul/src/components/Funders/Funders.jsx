@@ -43,14 +43,11 @@ const Funders = () => {
         <div className='funders-item'>
         <img src={funders6} alt='' />
 
-        <div className='btn-volunteer'>
+        <div>
           <Link to="/contact">
-            <button className="btn" >Be a Funder</button>
+            <button className="btn r" >Be a Funder</button>
           </Link>
         </div>
-      
-
-
 
         </div>
         </Fade>

@@ -72,6 +72,7 @@ border: none;
   transition: all 0.2s linear;
   text-align: center;
   align-items: center;
+  
 }
 .social-icons a:hover{
 background-color: darkgreen;
