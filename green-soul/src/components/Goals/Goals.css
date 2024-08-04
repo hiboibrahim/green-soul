@@ -47,18 +47,20 @@ border-radius: 50%;
 
 
 
-@media screen  and (max-width:1042px) {
-  .goals .box {
-    flex-direction: column;
-    width:100%;
-        height: auto;
-        padding: 99px 2%;
+@media screen  and (min-width:768px) {
+  .goals-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
   
  }
- .goals img {
-  width: 150px;
-  width: 150px;
+  .goals-card {
+  margin: 2rem;
+ 
  }
+
 
   
 }

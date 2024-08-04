@@ -151,10 +151,15 @@
 }
 /* Media Query */
 
-@media (max-width:800px){
+@media (max-width:768px){
     .about {
         flex-direction: column;
+        width: auto;
 
+    }
+    .about-us{
+        width: 100%;
+        display: block;
     }
     .about-left{
         flex-basis: 100%;

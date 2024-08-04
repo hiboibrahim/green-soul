@@ -7,7 +7,7 @@ const ContactUs = () => {
     <>
     <div className='contact-page'></div>
     <div>
-      <Navbar />
+    
     
     <Contact />
     

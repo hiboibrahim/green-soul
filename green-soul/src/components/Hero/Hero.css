@@ -72,17 +72,14 @@ opacity: 0.8;
 /* Media query */
 
 
-@media (max-width:850px){
-    .hero-text h1 {
-        font-size: 20px;
+@media (max-width:768px){
+
+    .hero-container{
+        width: 100%;
     }
-}
-
-@media (max-width:650x){
 
     .hero-text h1 {
-        font-size: 30px;
-        max-width: 400px;
+        font-size: 25px;
         margin: auto;
     }
     .hero-text p {
@@ -90,7 +87,7 @@ opacity: 0.8;
         margin: 15px auto 30px;
     }
     .hero {
-            height: 40vh;
+            display: block;
     }
    
 }
