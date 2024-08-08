@@ -24,7 +24,7 @@ const Goals = () => {
     
 
    </div>
-   <div className="goals-card" alt='first goal'>
+   <div className="goals-card" alt='second goal'>
     <img src={value2} />
     <h2>Sustainability and Health</h2>
     <p>Combating food insecurity and promoting sustainable health for people and the planet.
@@ -33,7 +33,7 @@ const Goals = () => {
     
 
    </div>
-   <div className="goals-card" alt='first goal'>
+   <div className="goals-card" alt='third goal'>
     <img src={value3} />
     <h2>Community Empowerment</h2>
     <p>"Building stronger communities and enhancing well-being through support and Education.

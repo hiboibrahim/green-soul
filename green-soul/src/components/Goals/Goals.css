@@ -1,67 +1,71 @@
-.goals-card{
-  border-radius: 10px;
-  box-shadow: 5px 5px 5px rgba(141, 141, 141, 0.774);
-  max-width: 250px;
-  height: ;
-  margin: auto;
-  padding: 20px;
-  text-align: center;
-  display: inline-block;
-  margin: 40px;
-  align-items: center;
-  background-color: rgb(242, 239, 239);
-  cursor: pointer;
-  transition: all 0.3s;
-  height: 100%;
-
+/* General section styling */
+.goals-section {
+  padding: 50px 10%;
+  background-color: #f4f4f4;
 }
 
-.goals-card:hover {
-  transform:scale(1.15) ;
-}
+/* Container for the cards */
 .card-container {
-  padding: 40px 0;
-  position: relative;
-  background: #fafafa;
-  align-items: center;
-  position: relative;
-  left: 50px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding-top: 30px;
+}
 
-
-
+/* Individual card styling */
+.goals-card {
+  background: fafafa;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 100%;
+  max-width: 300px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .goals-card img {
-  max-width: 60%;
+  width: 100%;
   height: auto;
-margin-bottom: 10px;
-border-radius: 50%;
+  border-radius: 10px;
 }
 
 .goals-card h2 {
   margin: 0;
-  color:black;
-
+  font-size: 1.5rem;
+  color: #333;
 }
 
+.goals-card p {
+  font-size: 1rem;
+  color: #666;
+}
 
+/* Hover effects for cards */
+.goals-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
 
+/* Media Queries for responsiveness */
+@media (max-width: 768px) {
+  .card-container {
+      flex-direction: column;
+      align-items: center;
+  }
 
-@media screen  and (max-width:850px) {
-  .goals-container {
-   display: flex;
-        flex-direction: column-reverse;
-        align-items: center;
-        justify-content: space-between;
-        margin-top: 2.5rem;
-
-  
- }
   .goals-card {
-  margin: 1rem;
- 
- }
+      max-width: 90%;
+  }
+}
 
+@media (max-width: 480px) {
+  .goals-card h2 {
+      font-size: 1.2rem;
+  }
 
-  
+  .goals-card p {
+      font-size: 0.9rem;
+  }
 }

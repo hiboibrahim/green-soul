@@ -53,3 +53,35 @@
     
 }
 
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .community-meals {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .community-right,
+    .community-left {
+        flex-basis: 100%;
+        max-width: 100%; /* Ensures full width on smaller screens */
+        padding: 10px; /* Adjusted padding for mobile */
+    }
+
+    .community-right h1 {
+        font-size: 2rem; /* Adjusted font size for mobile */
+    }
+
+    .community-right h5 {
+        font-size: 1rem; /* Adjusted font size for mobile */
+    }
+
+    .community-right p {
+        font-size: 0.875rem; /* Adjusted font size for mobile */
+    }
+
+    .community-left img {
+        max-width: 100%; /* Ensures image scales properly */
+    }
+}

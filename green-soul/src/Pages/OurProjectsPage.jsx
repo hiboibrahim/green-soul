@@ -10,7 +10,7 @@ const OurProjectsPage = () => {
     <>
     <Navbar />
       <br/>
-      
+
       <OurProjects />
       <CommunityMeals />
 
