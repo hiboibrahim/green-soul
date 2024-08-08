@@ -24,5 +24,38 @@ border-radius: 50%;
   margin: 40px 20px 20px;
   align-items: center;
   letter-spacing: 1px;
+  width: 95%;
+  align-items: center;
 }
+
+.funder-text {
+  animation: fade-in 3s;
+}
+
+.btn-container{
+  position: relative;
+  margin-bottom: 10%;
+}
+
+.btn-fund{
+  position: absolute;
+  align-items: center;
+  top: 50%;
+  left: 43%;
+
+width:15%;
+
+}
+
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 100%;
+  }
+}
+
+  
 

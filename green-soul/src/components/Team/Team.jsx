@@ -16,13 +16,13 @@ const Team = () => {
         <div className="box">
           <img src={team1}></img>
           <h3>Sanab Hersi</h3>
-          <h5>Founder/Director</h5>
+          <h5>Director</h5>
           <div className="icons">
             <p></p>
           </div>
         </div>
         <div className="box">
-          <img src={team2}></img>
+          <img src={team1}></img>
           <h3>Hibo Ibrahim</h3>
           <h5>Operations</h5>
           <div className="icons">
@@ -38,7 +38,7 @@ const Team = () => {
           </div>
         </div>
         <div className="box">
-          <img src={team2}></img>
+          <img src={team1}></img>
           <h3>Kadra Ahmed</h3>
           <h5>Food Coordinator</h5>
           <div className="icons">

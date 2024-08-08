@@ -47,17 +47,18 @@ border-radius: 50%;
 
 
 
-@media screen  and (min-width:768px) {
+@media screen  and (max-width:850px) {
   .goals-container {
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+   display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 2.5rem;
 
   
  }
   .goals-card {
-  margin: 2rem;
+  margin: 1rem;
  
  }
 

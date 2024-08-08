@@ -16,10 +16,17 @@ const Funders = () => {
   <div className='funder-text'>
         <h4>
         We deeply appreciate the generous support of our funders and supporters, whose contributions enable Green Soul to make a meaningful impact in our community.
+  
+      </h4>
+      <h4>
       Interested in making a difference? Fund Green Soul to support vital community programs and help us combat food insecurity and promote well-being.
-      
       </h4>
       </div>
+      <div className='btn-container'>
+          <Link to="/contact">
+            <button className="btn btn-fund" >Be a Funder </button>
+          </Link>
+        </div>
     <div className='funders'>
       
       <Fade>
@@ -43,16 +50,13 @@ const Funders = () => {
         <div className='funders-item'>
         <img src={funders6} alt='' />
 
-        <div>
-          <Link to="/contact">
-            <button className="btn r" >Be a Funder</button>
-          </Link>
-        </div>
+        
 
         </div>
         </Fade>
 
     </div>
+    
     </>
   )
 }

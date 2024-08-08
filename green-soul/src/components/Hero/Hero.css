@@ -72,10 +72,11 @@ opacity: 0.8;
 /* Media query */
 
 
-@media (max-width:768px){
+@media (max-width:850px){
 
     .hero-container{
-        width: 100%;
+        margin:4rem 2rem;
+        ;
     }
 
     .hero-text h1 {
@@ -88,6 +89,12 @@ opacity: 0.8;
     }
     .hero {
             display: block;
+            width: auto;
+    }
+
+    .hero-image {
+        width: 100%;
+        margin: 1.8rem 0;
     }
    
 }
