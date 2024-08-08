@@ -73,7 +73,7 @@
     .container-nav .nav-link {
         flex-direction: column;
         justify-content: space-evenly;
-        background-color: #fafafa8a;
+        background-color: #fffcfccf;
         position: absolute;
         width: 350px;
         height: 60vh;
@@ -82,12 +82,14 @@
         z-index: 10;
         transition: all 0.7s ease-in;
         border-radius: 15px;
+        display: flex;
 
 
     }
     .nav-link.active {
         top: 100%;
-        transition: all 0.7s ease-in;
+        transition: all 0.3s ease-in;
+        display: flex;
 
     }
 

@@ -139,6 +139,15 @@
 
 /* Media Query */
 
+
+@media (max-width:550px){
+    .about {
+        flex-direction: column;
+    }
+
+    
+}
+
 @media (max-width:800px){
     .about {
         flex-direction: column;

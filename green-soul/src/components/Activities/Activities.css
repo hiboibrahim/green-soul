@@ -1,39 +1,27 @@
-.activities{
-    margin: 20px;
+/* Base Styles (Mobile-First) */
+.activities {
     display: flex;
+    flex-direction: column; /* Stack elements vertically on mobile */
     align-items: center;
-    justify-content: space-between;
-    width: 85%;
-    text-align: center;
-
-    padding-left: 20px;
-    
+    text-align: center; /* Center-align text on mobile */
+    padding: 20px;
 }
 
 .activities-left {
-    flex-basis: 40%;
-      
-}
-
-.activities-left img {
-    border-radius: 10px;
-    padding-top: 120px;
-}
-
-
-.activities-right{
-    flex-basis: 56%;
-    padding: 30px;
- ;}
-
-
-
-.activities img {
-    margin: 2rem 2rem;
+    width: 100%;
     display: flex;
-    align-items: center;
     justify-content: center;
-    text-align: right;
+    margin-bottom: 20px;
+}
+
+.activities-image {
+    width: 100%;
+    max-width: 500px; /* Constrain image width */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.activities-right {
+    width: 100%;
 }
 
 
@@ -62,4 +50,56 @@
     font-size: 18px;
     margin-bottom: 10px;
     
+}
+
+
+/* Media Queries */
+
+/* Tablets and small screens */
+@media (min-width: 600px) {
+    .activities {
+        flex-direction: row; /* Switch to row layout for tablets and up */
+        text-align: left; /* Left-align text */
+        justify-content: space-between;
+    }
+
+    .activities-left {
+        width: 50%; /* Half-width on tablets */
+        margin-bottom: 0; /* Remove bottom margin */
+    }
+
+    .activities-right {
+        width: 50%; /* Half-width on tablets */
+    }
+
+    .activities-right h1 {
+        font-size: 2rem; /* Larger font size */
+    }
+
+    .activities-right h5 {
+        font-size: 1.5rem; /* Larger font size */
+    }
+}
+
+/* Desktops and larger screens */
+@media (min-width: 992px) {
+    .activities {
+        padding: 40px; /* More padding for larger screens */
+    }
+
+    .activities-left {
+        width: 40%; /* Adjust width for larger screens */
+    }
+
+    .activities-right {
+        width: 60%; /* Adjust width for larger screens */
+    }
+
+    .activities-right h1 {
+        font-size: 2.5rem; /* Larger font size */
+    }
+
+    .activities-right h5 {
+        font-size: 1.8rem; /* Larger font size */
+    }
 }

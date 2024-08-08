@@ -1,61 +1,82 @@
+/* Base Styles (Mobile-First) */
+.funder-text {
+  padding: 20px;
+  text-align: center; /* Center-align text on mobile */
+}
+
+.funder-text h4 {
+  font-size: 1rem; /* Responsive font size */
+  margin: 10px 0;
+  color: #333; /* Darker text for readability */
+}
+
+.btn-container {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.btn {
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+
+
 .funders {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-top: 4%;
-    position: relative;
-    
+  display: flex;
+  flex-wrap: wrap; /* Allow wrapping of items */
+  justify-content: center; /* Center-align items */
+  gap: 10px; /* Space between items */
+  padding: 5px;
+}
+
+.funders-item {
+  flex: 1 1 100%; /* Full width on mobile */
+  max-width: 300px; /* Constrain item width */
+  margin: 0; /* Margin around items */
+  overflow: hidden; /* Ensure images don’t overflow */
 }
 
 .funders-item img {
-  height: 150px;
-  width: 150px;
-margin: 20px;
-border-radius: 50%;
+  width: 150px; /* Responsive width */
+  height: 150px; /* Maintain aspect ratio */
+  display: block;
+  border-radius: 50%; /* Match the border-radius of the container */
 }
 
+/* Media Queries */
 
-.funder-text h4 {
-  font-size: 18px;
-  text-align: center;
-  color: black;
-  font-size: 18px;
-  font-weight: 600;
-  margin: 40px 20px 20px;
-  align-items: center;
-  letter-spacing: 1px;
-  width: 95%;
-  align-items: center;
-}
-
-.funder-text {
-  animation: fade-in 3s;
-}
-
-.btn-container{
-  position: relative;
-  margin-bottom: 10%;
-}
-
-.btn-fund{
-  position: absolute;
-  align-items: center;
-  top: 50%;
-  left: 43%;
-
-width:15%;
-
-}
-
-
-@keyframes fade-in {
-  from {
-    opacity: 0;
+/* Tablets and small screens */
+@media (min-width: 600px) {
+  .funder-text h4 {
+      font-size: 1.2rem; /* Larger font size */
   }
-  to {
-    opacity: 100%;
+
+  .btn {
+      font-size: 1.1rem; /* Larger button text */
   }
 }
 
-  
+/* Desktops and larger screens */
+@media (min-width: 992px) {
+  .funder-text h4 {
+      font-size: 1.5rem; /* Larger font size */
+  }
 
+  .funders {
+      justify-content: space-between; /* Spread out items on larger screens */
+  }
+
+  .funders-item {
+      flex: 1 1 20%; /* Adjust width for larger screens */
+  }
+
+  .btn {
+      font-size: 1.2rem; /* Larger button text */
+  }
+}
