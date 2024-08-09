@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./Navbar.css";
-import menu_icon from "../../assets/menu-icon.png";
+import menu_icon from "../../assets/menu-icon1.png";
 import { Link } from "react-router-dom";
 import { FiFacebook, FiTwitter, FiInstagram } from "react-icons/fi";
 import {FaBars, FaSlack } from 'react-icons/fa'
@@ -47,7 +47,7 @@ const Navbar = () => {
 
       </ul>
       <div className="menu-icon" onClick={toggleMenu}>
-        <img src={menu_icon} />
+        <img src={menu_icon} style={{ width: '50px', height: '50px' }}  />
 
       </div>
 

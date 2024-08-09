@@ -131,6 +131,10 @@
 
 
 @media (max-width: 600px) {
+.our-projects {
+    display: flex;
+}
+
     .about-text h1 {
         font-size: 36px;
     }

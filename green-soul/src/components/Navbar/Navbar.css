@@ -43,7 +43,7 @@
 
 .container-nav ul li:hover,
 .container-nav ul li.active {
-    background-color: rgb(179, 177, 177);
+    background-color: rgb(150, 147, 147);
     border-radius: 10px;
     
 }
@@ -84,6 +84,7 @@
         border-radius: 15px;
         display: flex;
         font-weight: bold;
+        margin-top: -10px;
 
 
     }

@@ -60,7 +60,7 @@
     }
 }
 
-@media (min-width: 850px) {
+@media (min-width: 838px) {
     .hero-text h1 {
         font-size: 4rem; /* Larger font size for desktops */
     }
@@ -71,6 +71,7 @@
         top: -30px; /* Adjust positioning */
     }
 }
+
 
 @media (min-width: 1024px) {
     .hero-text h1 {

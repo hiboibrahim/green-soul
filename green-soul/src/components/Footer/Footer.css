@@ -1,98 +1,117 @@
+/* Reset margin and padding for all elements */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+/* Footer base styles */
 .footer {
   padding: 50px 15%;
   background: #d3d3d3;
   color: black;
   margin-top: 150px;
   display: flex;
-  width: 100%;
-  border-radius:56% 44% 100% 0% / 0% 100% 0% 100%   ;
-  
-
+  flex-wrap: wrap; /* Ensure wrapping on smaller screens */
+  border-radius: 56% 44% 100% 0% / 0% 100% 0% 100%;
 }
 
 .footer div {
   text-align: center;
 }
-.col-2{
+
+.col-2 {
   flex-grow: 2;
 }
 
+/* Footer heading styles */
 .footer div h3 {
-  font-size: 14px ;
+  font-size: 14px;
   margin-bottom: 30px;
   letter-spacing: 1px;
 }
 
-
+/* Links in the first column */
 .col-1 a {
   display: block;
   text-decoration: none;
   color: black;
   margin-bottom: 10px;
-
 }
 
+/* Input field in the form */
 form input {
-  width:400;
-height: 45px;
-border-radius: 4px;
-text-align: center;
-margin-top: 20px;
-margin-bottom: 40px;
-outline: none;
-border: none;
-
+  width: 100%; /* Make input responsive */
+  max-width: 300px; /* Max width to prevent it from getting too large */
+  height: 45px;
+  border-radius: 4px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  outline: none;
+  border: none;
+  padding: 0 10px; /* Add padding inside input */
 }
 
+/* Social icons container */
 .social-icons {
   margin-top: 30px;
 }
 
+/* Social icon styles */
 .social-icons a {
-  font-size:22px ;
+  font-size: 22px;
   margin: 10px;
   cursor: pointer;
   width: 46px;
   height: 46px;
   border-radius: 50%;
-  font-size: 18px;
-  line-height: 45px;
   color: #858da8;
-  display: inline-block;
+  display: inline-flex; /* Use flexbox for alignment */
+  align-items: center;
+  justify-content: center;
   background: #ebeef5;
   text-align: center;
-  -webkit-transition: all 0.2s linear;
-  -o-transition: all 0.2s linear;
-  transition: all 0.2s linear;
-  text-align: center;
-  align-items: center;
-  
-}
-.social-icons a:hover{
-background-color: darkgreen;
+  transition: background-color 0.2s linear;
 }
 
+.social-icons a:hover {
+  background-color: darkgreen;
+  color: white; /* Change icon color on hover */
+}
 
-
-/* Media Query */
-
-@media (max-width:768px){
-  
-  .footer{
+/* Media Query for screens smaller than 768px */
+@media (max-width: 768px) {
+  .footer {
     padding: 4rem 2rem;
     display: block;
-  }
-  .social-icons {
-    margin: 1rem 1rem 0 0 ;
-  }
-  .bottom div {
-    width:50%;
+    text-align: center;
   }
 
+  .social-icons {
+    margin: 1rem auto; /* Center the social icons */
+  }
+
+  .footer div {
+    width: 100%;
+    margin-bottom: 20px; /* Add margin between columns */
+  }
+}
+
+/* Optional: Media Query for screens smaller than 480px */
+@media (max-width: 480px) {
+  .social-icons a {
+    font-size: 18px; /* Adjust icon size */
+    width: 40px;
+    height: 40px;
+  }
+
+  form input {
+    font-size: 14px; /* Adjust font size */
+  }
+
+  .btn {
+    padding: 8px 16px;
+    font-size: 14px; /* Adjust button font size */
+  }
 }
