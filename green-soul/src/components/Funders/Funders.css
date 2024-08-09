@@ -31,16 +31,18 @@
   display: flex;
   flex-wrap: wrap; /* Allow wrapping of items */
   justify-content: center; /* Center-align items */
-  gap: 10px; /* Space between items */
-  padding: 5px;
+  gap: 15px; /* Space between items */
+  padding: 10px;
 }
 
 .funders-item {
   flex: 1 1 100%; /* Full width on mobile */
-  max-width: 300px; /* Constrain item width */
+  max-width: 200px; /* Constrain item width */
   margin: 0; /* Margin around items */
   overflow: hidden; /* Ensure images don’t overflow */
 }
+
+
 
 .funders-item img {
   width: 150px; /* Responsive width */
@@ -74,6 +76,7 @@
 
   .funders-item {
       flex: 1 1 20%; /* Adjust width for larger screens */
+      max-width: 250px;
   }
 
   .btn {
