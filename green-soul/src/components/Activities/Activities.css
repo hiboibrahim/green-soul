@@ -5,6 +5,7 @@
     align-items: center;
     text-align: center; /* Center-align text on mobile */
     padding: 20px;
+    justify-content: center;
 }
 
 .activities-left {
@@ -37,10 +38,9 @@
 
 .activities-right h5{
     color: black;
-    font-size:18px ;
+    font-size: 18px;
     margin-bottom: 25px;
     letter-spacing: 1px;
-    text-align: justify;
 }
 
 .activities-right p{

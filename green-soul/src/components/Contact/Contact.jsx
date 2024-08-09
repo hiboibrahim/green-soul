@@ -47,7 +47,7 @@ function Contact() {
         <label>Message</label>
         <textarea name="message" placeholder='Enter your message' required></textarea>
 
-        <button className='btn btn-dark' type="submit">Submit Form</button>
+        <button className='btn btn-dark' type="submit">Submit</button>
 
       </form>
       <span>{result}</span>

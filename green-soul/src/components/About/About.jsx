@@ -11,7 +11,7 @@ const About = () => {
 
     <Fade>
       <div className='about-left'>
-      <img src= {aboutimg} width={450} height={400} alt='' />
+      <img className='about-img' src= {aboutimg} width={450} height={400} alt='' />
         </div>
         <div className='about-right'>
           <h2>Green Soul is a grassroots community organisation centred on social inclusion.</h2>

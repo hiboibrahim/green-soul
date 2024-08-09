@@ -1,72 +1,79 @@
-
+/* Base styles for the contact section */
 .contact {
     margin: 80px auto;
     max-width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-
+    flex-wrap: wrap; /* Ensure items wrap on smaller screens */
 }
-
 
 .contact-col {
     flex-basis: 70%;
-    color: black
+    color: black;
+    position: relative;
+    text-align: center; /* Center text in the contact-col */
 }
 
-.contact-col h3{
+.contact-col h3 {
     color: black;
     font-weight: 500;
     font-size: 25px;
-    display:flex;
-    align-items: center;
-    text-align: center;
     margin-bottom: 20px;
-
 }
 
 .contact-col p {
     max-width: 450px;
-    list-style:0.3 ;
-    text-align: center;
+    margin: 0 auto; /* Center paragraph */
+    font-size: 16px; /* Ensure readability */
 }
 
+.contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center form items */
+    justify-content: center;
+}
 
-
-
-.contact form input, .contact form textarea {
-    display: block;
+.contact form input, 
+.contact form textarea {
     width: 100%;
-    background:rgb(213, 213, 213) ;
-    padding: 15px;
-    border: 0;
-    outline: 0;
+    max-width: 500px; /* Restrict max width for large screens */
+    background: rgb(213, 213, 213);
+    padding: 15px; /* Adjust padding */
+    border: 1px solid #ccc; /* Add border for better visibility */
+    border-radius: 4px; /* Rounded corners */
     margin-bottom: 15px;
     margin-top: 5px;
-    resize: none;
 }
+
+.contact form textarea {
+    resize: vertical; /* Allow vertical resizing only */
+}
+
 .contact span {
     display: block;
     margin: 20px 0;
+    font-size: 16px;
+    color: #d9534f; /* Feedback message color */
 }
 
-.contact-page{
+/* Adjusting contact page background */
+.contact-page {
     width: 100%;
     height: 50vh;
-    min-width: 50vh;
-    background: url('../../assets/communitygardening.jpg');
+    min-height: 300px; /* Ensure a minimum height */
+    background: url('../../assets/communitygardening.jpg') no-repeat center center;
     background-size: cover;
-    background-position: center;
     color: white;
     display: flex;
-    flex-basis: 100%;
     align-items: center;
     justify-content: center;
     border-radius: 10px;
+    text-align: center; /* Center text inside the contact-page */
 }
 
-/* Media Queries */ 
-
+/* Media Queries */
 
 /* For mobile devices (up to 600px) */
 @media (max-width: 600px) {
@@ -131,7 +138,6 @@
         font-size: 14px; /* Adjust font size for messages */
     }
 }
-
 
 /* For tablets and smaller desktops (between 768px and 1024px) */
 @media (max-width: 1024px) {
