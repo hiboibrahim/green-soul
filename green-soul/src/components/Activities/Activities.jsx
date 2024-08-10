@@ -8,13 +8,12 @@ const Activities = () => {
       
       <div className="activities-right">
         <h1>Community Activities</h1>
-        <h5>
+        <h3>
           Green Soul are committed to promoting equity, well-being, and
           environmental stewardship through collaborative and inclusive
           activities.  We support diverse voices and talents, fostering a sense of belonging and agency.
-        </h5>
+        </h3>
             
-          
           <p><span style={{"font-weight" : "bold"}}>Sip and Social Groups:</span> Foster community
           connections through casual meet-ups and discussions.</p>
           <p><span style={{"font-weight" : "bold"}}>Family Activities:</span> Gardening and Forest School: Engage families in hands-on
@@ -30,7 +29,7 @@ const Activities = () => {
 
       </div>
       <div className="activities-left">
-        <img src={activities} width={600} height={800} alt="" />
+        <img className="activities-image" src={activities} width={480} height={500} alt="A collage of community activities" />
       </div>
     </div>
   );

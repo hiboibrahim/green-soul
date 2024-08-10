@@ -23,27 +23,9 @@
 
 }
 
-.our-projects h3 {
-    font-weight: 600;
-    font-size: 16px;
-    color: black;
-    font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  
 
-}
 
-.our-projects h2 {
-    color: black;
-    font-size: 28px;
-    margin: 10px 0;
-    max-width: 550px;
-    text-align: center;
-    font-family: "Roboto", sans-serif;
-  font-weight: 700;
-  
-    
-}
+
 
 .our-projects p{
     color: rgb(68, 66, 66);

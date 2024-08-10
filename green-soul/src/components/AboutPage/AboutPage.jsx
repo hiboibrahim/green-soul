@@ -1,6 +1,6 @@
 import React from 'react'
 import Navbar from '../Navbar/Navbar'
-import Logo from '../../assets/Logo1.png'
+import Logo from '../../assets/Logo3.png'
 
 
 const AboutPage = () => {
@@ -14,7 +14,7 @@ const AboutPage = () => {
     <div className='about-section'>
 
     <div className='main'>
-            <img className='spin-logo' src={Logo} width={400} height={400} alt="logo" />
+            <img className='spin-logo' src={Logo} width={480} height={500} alt="logo" />
           
     
     <div className='about-text'>
