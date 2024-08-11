@@ -1,5 +1,4 @@
 .community-meals {
-    margin: 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -12,11 +11,13 @@
 .community-right {
     flex-basis: 56%;
     padding: 30px;
+    margin-left: 60px;
 
 }
 .community-left {
     flex-basis: 40%;
     padding-top: 70px;
+    padding-left: 20px;
       
 }
 
