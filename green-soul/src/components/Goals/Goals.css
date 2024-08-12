@@ -10,7 +10,7 @@
   justify-content: space-between;
   flex-wrap: wrap;
   gap: 20px;
-  padding-top: 30px;
+  padding-top: 40px;
   padding-bottom: 30px;
 }
 
@@ -19,9 +19,9 @@
   background: fafafa;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  padding: 20px;
+  padding: 5px;
   width: 100%;
-  max-width: 300px;
+  max-width: 250px;
   text-align: center;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -34,8 +34,9 @@
 
 .goals-card h2 {
   margin: 0;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   color: #333;
+  padding-bottom: 5px;
 }
 
 .goals-card p {
