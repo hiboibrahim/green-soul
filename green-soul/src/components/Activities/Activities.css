@@ -1,10 +1,17 @@
 /* Base Styles (Mobile-First) */
+
+/*
 .activities {
+
+    /*
     display: flex;
-    flex-direction: column; /* Stack elements vertically on mobile */
+    flex-direction: column; 
     align-items: center;
-    text-align: center; /* Center-align text on mobile */
+    text-align: center; 
     padding: 20px;
+    max-width: 1200px;
+    margin: 20px auto;
+
     justify-content: center;
 }
 
@@ -13,16 +20,14 @@
     display: flex;
     justify-content: center;
     margin-bottom: 20px;
+    text-align: center;
 }
-
-
 
 
 .activities-right {
     width: 550px;
     text-decoration:none;
     text-align: justify;
-    margin-right: 100px;
 }
 
 
@@ -33,8 +38,6 @@
     margin-bottom: 20px;
     text-align: center;
 }
-
-
 
 .activities-right h3{
     color: black;
@@ -57,50 +60,51 @@
 /* Media Queries */
 
 /* Tablets and small screens */
+/*
 @media (min-width: 600px) {
     .activities {
-        flex-direction: row; /* Switch to row layout for tablets and up */
-        text-align: left; /* Left-align text */
+        flex-direction: row; 
+        text-align: left; 
         justify-content: space-between;
     }
 
     .activities-left {
-        width: 50%; /* Half-width on tablets */
-        margin-bottom: 0; /* Remove bottom margin */
+        width: 50%; 
+        margin-bottom: 0;
     }
 
     .activities-right {
-        width: 50%; /* Half-width on tablets */
-    }
+        width: 50%; 
 
     .activities-right h1 {
-        font-size: 2rem; /* Larger font size */
+        font-size: 2rem;
     }
 
     .activities-right h5 {
-        font-size: 1.5rem; /* Larger font size */
+        font-size: 1.5rem; 
     }
 }
 
 /* Desktops and larger screens */
+/*
 @media (min-width: 992px) {
     .activities {
-        padding: 40px; /* More padding for larger screens */
+        padding: 40px; 
     }
 
     .activities-left {
-        width: 40%; /* Adjust width for larger screens */
+        width: 40%; 
     }
 
     .activities-right {
-        width: 60%; /* Adjust width for larger screens */
+        width: 60%; 
     }
 
     .activities-right h1 {
-        font-size: 2.5rem; /* Larger font size */
+        font-size: 2.5rem; 
     }
 
     .activities-right h5 {
-        font-size: 1.8rem; /* Larger font size */
+        font-size: 1.8rem; 
     }
 }

@@ -15,23 +15,22 @@
     padding: 20px; /* Adequate padding for mobile */
     background-color: #fafafa;
     text-align: center;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .main {
     width: 90%;
     max-width: 1200px; /* Adjusted max-width for better mobile scaling */
-    margin: 20px auto;
+    margin: auto;
     display: flex;
     flex-direction: column; /* Mobile-first layout */
     align-items: center;
 }
 
-.spin-logo {
-    border-radius: 10px;
-    width: 100%; /* Responsive width */
-    max-width: 300px; /* Constrain max-width on smaller screens */
-    margin: 20px 0;
-}
+
 
 .about-text {
     width: 100%;
@@ -57,58 +56,4 @@
     font-size: 1rem; /* Responsive font size */
     line-height: 1.6;
     margin-bottom: 20px;
-}
-
-/* Media Queries */
-
-/* Tablets and small screens */
-@media (min-width: 600px) {
-    .main {
-        flex-direction: row; /* Switch to row layout on larger screens */
-        align-items: flex-start; /* Align items at the start */
-        justify-content: center; /* Center content */
-    }
-    .about-us {
-        display: none;
-    }
-
-    .spin-logo {
-        max-width: 350px; /* Slightly larger logo on tablets */
-    }
-
-    .about-text h1 {
-        font-size: 1.8rem; /* Increase font size */
-    }
-
-    .about-text h5 {
-        font-size: 1.5rem; /* Increase font size */
-    }
-}
-
-/* Desktops and larger screens */
-@media (min-width: 992px) {
-    .main {
-        flex-direction: row; /* Ensure row layout */
-        justify-content: space-between; /* Space out items */
-    }
-
-    .spin-logo {
-        max-width: 400px; /* Larger logo on desktops */
-    }
-
-    .about-text {
-        text-align: left; /* Left-align text for better readability on larger screens */
-    }
-
-    .about-text h1 {
-        font-size: 2.5rem; /* Larger font size for desktop */
-    }
-
-    .about-text h5 {
-        font-size: 1.8rem; /* Larger font size for desktop */
-    }
-
-    .about-text p {
-        font-size: 1.1rem; /* Slightly larger text for readability */
-    }
 }
