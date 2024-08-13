@@ -6,8 +6,8 @@ import activities from "../../assets/activities-img.png";
 const Activities = () => {
   return (
     <div className="about-section container-fluid pt-0">
-      <div className="main activities-right d-flex flex-column flex-lg-row  p-3 ">
-        <div className=" about-text d-flex flex-column justify-content-center align-items-center p-4 order-2 order-lg-1 ms-1">
+      <div className="main activities-right d-flex flex-column flex-lg-row  p-3 ">        <div className=" about-text d-flex flex-column justify-content-center align-items-center p-4 order-2 order-lg-1 ms-1">
+
           <h1>Community Activities</h1>
           <h3>
             Green Soul are committed to promoting equity, well-being, and

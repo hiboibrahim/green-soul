@@ -8,6 +8,15 @@
     
 }
 
+
+.our-project p{
+  font-size: 20px;
+  font-weight: 600;
+  padding-top: 10px;
+  color: #7B7B7B;
+  text-align: justify;
+}
+
 --*/
 #intro {
   padding: 100px 0;
@@ -20,6 +29,7 @@
 #intro .block p {
   color: #7B7B7B;
   padding-top: 20px;
+  
 }
 #intro .block img {
   padding-left: 40px;
@@ -28,7 +38,20 @@
 }
 #intro .section-title {
   margin-bottom: 0px;
+  
 }
+
+
 #intro .section-title p {
   padding-top: 20px;
+  color: rgb(68, 66, 66);
+  text-align: justify;
+}
+
+.section-p {
+  text-align: justify;
+}
+
+.block img {
+  
 }
