@@ -7,7 +7,7 @@ import hero from '../../assets/community.avif'
 const Hero = () => {
   return (
     
-    <div className='hero container'>
+    <div className='hero container-fluid'>
       
       <div className='hero-text'>
         <img src={logo} />

@@ -13,7 +13,7 @@ const Funders = () => {
 
   return ( 
     <>
-  <div className='funder-text'>
+  <div className='funder-text '>
         <h4>
         We deeply appreciate the generous support of our funders and supporters, whose contributions enable Green Soul to make a meaningful impact in our community.
   
@@ -22,7 +22,7 @@ const Funders = () => {
       Interested in making a difference? Fund Green Soul to support vital community programs and help us combat food insecurity and promote well-being.
       </h4>
       </div>
-      <div className='btn-container'>
+      <div className='btn-container pb-4'>
           <Link to="/contact">
             <button className="btn btn-fund" >Be a Funder </button>
           </Link>

@@ -12,7 +12,6 @@ const OurProjectsPage = () => {
       <br/>
 
       <OurProjects />
-      <CommunityMeals />
 
     </>
   )

@@ -8,6 +8,8 @@
   font-size: 1rem; /* Responsive font size */
   margin: 10px 0;
   color: black; /* Darker text for readability */
+  opacity: 0.5;
+  font-family: 'Poppins', sans-serif;
 }
 
 .btn-container {
