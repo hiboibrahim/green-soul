@@ -11,7 +11,6 @@ const AboutUs = () => {
     <>
     <Navbar />
     <AboutPage />
-    <Activities />
     <Team/>
     <Title title='Our Funders & suppporters' />
     <Funders />
