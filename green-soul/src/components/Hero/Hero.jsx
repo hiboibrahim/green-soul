@@ -12,7 +12,7 @@ const Hero = () => {
       <div className='hero-text'>
         <img src={logo} />
 
-      <h1>Rooted in Community, Growing Together for a Better Tomorrow.</h1>
+      <h1 className='text-left'>Rooted in Community, Growing Together for a Better Tomorrow.</h1>
     <Link to='/ourprojects'> 
          <button className='btn btn-hero'  > Learn More </button>
 

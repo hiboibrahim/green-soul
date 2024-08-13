@@ -1,8 +1,8 @@
 /* Base Styles (Mobile-First) */
 .hero {
     height: 100vh;
-    background: url('../../assets/community.avif') no-repeat center center/cover;
-    color: white;
+    background: url('../../assets/hero2.png') no-repeat center center/cover;
+    color: rgba(2, 75, 24, 0.726);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -30,6 +30,30 @@
     z-index: 1;
     animation: floating 4s ease-in-out infinite;
 }
+
+#feature {
+    background: url("../../assets/bees.png");
+    background-position: 50% 94px;
+    width: 100%;
+    display: block;
+    position: relative;
+    overflow: visible;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #fff;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    padding: 100px 0;
+    opacity: 0.7;
+  }
 
 @keyframes floating {
     0% { transform: translateY(0); }
@@ -75,6 +99,6 @@
 
 @media (min-width: 1024px) {
     .hero-text h1 {
-        font-size: 3.2rem; /* Adjust font size for larger screens */
+        font-size: 2.4rem; /* Adjust font size for larger screens */
     }
 }
