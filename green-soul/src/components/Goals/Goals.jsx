@@ -29,11 +29,11 @@ const Goals = () => {
 					<div class="col-md-4 text-center wow fadeInUp" data-wow-duration="500ms" >
 						<div class="wrap-about">							
 							<div class="icon-box">
-              <FaPaintBrush  />
+              <FaPaintBrush className="goals-icon"  size={50} />
 
 							</div>					
 							<div class="about-content text-center">
-								<h3 class="ddd">Equity and Inclusion</h3>								
+								<h3>Equity and Inclusion</h3>								
 								<p className="goals-p">Empowering all voices through inclusive and accessible artistic expression.</p>
 							</div>
 						</div>
@@ -42,7 +42,7 @@ const Goals = () => {
 					<div class="col-md-4 text-center wow fadeInUp" data-wow-duration="500ms" data-wow-delay="250ms">
 						<div class="wrap-about">
 							<div class="icon-box">
-              <FaRecycle />
+              <FaRecycle className="goals-icon"  size={50} />
 							</div>
 							<div class="about-content text-center">
 								<h3>Sustainability and Health</h3>
@@ -54,7 +54,7 @@ const Goals = () => {
 					<div class="col-md-4 text-center wow fadeInUp" data-wow-duration="500ms" data-wow-delay="500ms">
 						<div class="wrap-about kill-margin-bottom">
 							<div class="icon-box">
-              <RiMentalHealthLine />
+              <RiMentalHealthLine className="goals-icon" size={50}/>
 							</div>
 							<div class="about-content text-center">
 								<h3>Community Empowerment</h3>

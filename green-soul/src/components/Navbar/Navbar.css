@@ -41,13 +41,6 @@
 }
 
 
-.container-nav ul li:hover,
-.container-nav ul li.active {
-    background-color: rgb(150, 147, 147);
-    border-radius: 10px;
-    
-}
-
 .menu-icon{
     font-size: 1.5rem;
     cursor: pointer;

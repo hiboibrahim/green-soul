@@ -18,7 +18,7 @@ const About = () => {
               We support marginalised groups, those from lower income
               backgrounds, women and people of colour in engaging in wider
               society.              </div>
-              <p className="about-p">   Green Soul is a grassroots community organisation centred on
+              <p className="about-p  pt-3">   Green Soul is a grassroots community organisation centred on
               social inclusion. We actively seek to challenge urban inequalities
               and work with disadvantaged groups where people are marginalised
               through poverty or lack of opportunity. Through our growing
@@ -30,7 +30,7 @@ const About = () => {
               people. We want to see lives transformed through community
               gardening, becoming connected, supportive, healthier, empowered
               and joyful.</p>
-              <Link to="/about">
+              <Link to="/ourprojects">
 <button Link to='/ourprojects' className='btn'> Our Projects</button>
           </Link>
             </div>

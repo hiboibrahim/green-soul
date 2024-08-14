@@ -14,45 +14,37 @@ const Navbar = () => {
   }
 
   return (
-    <div className="container-nav">
-      <div className="social-icons top">
-        <a><FiFacebook /></a>
-       <a><FiInstagram /></a> 
-       <a><FiTwitter /></a> 
-       <a><FaSlack /></a> 
-       
+<>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav  ms-auto p-2">
+      <li class="nav-item active">
+        <a class="nav-link" href="/">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/about">About Us</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/ourprojects">Our Projects</a>
+      </li>
+     
+    </ul>
+   <ul className="s">
+      <FiFacebook />
+      <FiInstagram />
+      <FiTwitter />
+      <FaSlack />
+    </ul>
+  
+  </div>
+</nav>
 
-      </div>
-      
-      <ul className= {isOpen ? "nav-link active" : "nav-link"}>
-      <li>
-          <Link to="/" className="active">Home</Link>
-        </li>
-        <li>
-          <Link to="/about">About Us</Link>
-        </li>
-
-        <li>
-          <Link to="/ourprojects">Our Projects</Link>
-        </li>
-        
-
-        
-        <li>
-          <Link to="/contact">
-            <button className="btn">Connect</button>
-          </Link>
-        </li>
-
-
-      </ul>
-      <div className="menu-icon" onClick={toggleMenu}>
-        <img src={menu_icon} style={{ width: '50px', height: '50px' }}  />
-
-      </div>
-
-    </div>
-    
+   
+    </>
      
   );
 };

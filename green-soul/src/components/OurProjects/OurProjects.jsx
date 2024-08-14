@@ -7,14 +7,14 @@ import communitymeals from '../../assets/community-meals1.png'
 const OurProjects = () => {
   return (
     <>
-    <div className="our-project main justify-content-center align-items-center mt-4 pt-5 pb-1 p-5">
-      <h3 className="text-center">Nourishing Communities and Building Connections</h3>
-      <p >At the heart of our mission is a commitment to fostering well-being and community through thoughtful, impactful projects. Our initiatives are designed to address various aspects of food security and community cohesion, ensuring that everyone has access to nutritious food and a supportive network.</p>
+    <div className="our-project main justify-content-center align-items-center mt-4 pt-5 pb-1 pe-5 ps-5">
+      <h2 className="text-center">Nourishing Communities and Building Connections</h2>
+      <p className="lh-3" >At the heart of our mission is a commitment to fostering well-being and community through thoughtful, impactful projects. Our initiatives are designed to address various aspects of food security and community cohesion, ensuring that everyone has access to nutritious food and a supportive network. Building ttronger communities, one meal at a time.</p>
 
      
     </div>
 
-<section id="intro">
+<section id="intro" >
   <div className="container pt-4 pb-5">
     <div className="row">
       <div className="col-md-7 col-sm-12">

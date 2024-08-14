@@ -16,11 +16,18 @@
 }
 
 .hero-text {
+    font-size: 120px;
+    font-weight: 600;
+    line-height: 1.4;
+    color: #454545;
+    position: relative;
     text-align: center;
-    padding: 20px; /* Add padding for better spacing on small screens */
-    max-width: 100%; /* Ensure it fits well on small screens */
+
 }
 
+.hero-btn {
+left: 200px;
+}
 .hero img {
     height: 200px; /* Smaller size for mobile */
     width: 200px;
@@ -32,7 +39,7 @@
 }
 
 #feature {
-    background: url("../../assets/bees.png");
+    background: url("../../assets/bees5.png");
     background-position: 50% 94px;
     width: 100%;
     display: block;
