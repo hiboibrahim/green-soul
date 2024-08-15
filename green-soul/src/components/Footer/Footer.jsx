@@ -11,40 +11,28 @@ import { FaSlack } from "react-icons/fa"
 
 const Footer = () => {
   return (
-    <div className="footer">
-      <div className="col-1">
-        <h3>Useful Links</h3>
-        <a href="/">Home</a>
-        <a href="/about">About Us</a>
-        <a href="/ourprojects">Our Projects</a>
-        <a href="/contact">Connect With Us</a>
-
-      </div>
-      <div className="col-2">
-        <h3>Subscribe to receive our Newsletter</h3>
-        <form>
-        <input type="text" placeholder="Email Address" required ></input>
-        <br/>
-        <button className="btn">Subscribe Now</button>
-        </form>
-
-      </div>
-      <div className="col-3">
-        <h3>Follow us </h3>
-        <div className="social-icons"> 
-         <a> <FiFacebook /></a>
-        <a> <FiInstagram /></a>
-        <a><FiTwitter /></a>
-        <a> <FaSlack />
-      </a>
-
-        </div>
-       
-      </div>
-
-
-    </div>
    
+    
+<footer class="footer" >
+	<div class="waves">
+		<div class="wave" id="wave1"></div>
+		<div class="wave" id="wave2"></div>
+		<div class="wave" id="wave3"></div>
+		<div class="wave" id="wave4"></div>
+	</div>
+
+	<ul class="menu">
+		<li class="menu__item"><a class="menu__link" href="#">Home</a></li>
+		<li class="menu__item"><a class="menu__link" href="#">About us</a></li>
+		<li class="menu__item"><a class="menu__link" href="#">Our Projects</a></li>
+    <li class="menu__item"><a class="menu__link" href="#">Connect With Us</a></li>
+
+
+
+	</ul>
+	<p className="copyright-text">Made with 🤍 Hiba Ibrahim</p>
+
+</footer>
 
            
 

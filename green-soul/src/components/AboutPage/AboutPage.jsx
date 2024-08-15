@@ -1,11 +1,10 @@
 import React from "react";
-import Navbar from "../Navbar/Navbar";
 import Logo from "../../assets/Logo4.png";
 
 const AboutPage = () => {
   return (
     <>
-      <Navbar />
+      
 
       <section id="intro">
       <div class="container">
