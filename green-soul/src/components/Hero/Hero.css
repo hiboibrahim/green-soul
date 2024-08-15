@@ -1,8 +1,8 @@
 /* Base Styles (Mobile-First) */
 .hero {
     height: 100vh;
-    background: url('../../assets/hero2.png') no-repeat center center/cover;
-    color: rgba(2, 75, 24, 0.726);
+    background: url('../../assets/community.avif') no-repeat center center/cover;
+    color: hsla(138, 95%, 15%, 0.726);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -19,7 +19,7 @@
     font-size: 120px;
     font-weight: 600;
     line-height: 1.4;
-    color: #454545;
+    color: #fafafa;
     position: relative;
     text-align: center;
 
