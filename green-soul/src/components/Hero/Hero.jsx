@@ -7,21 +7,21 @@ import hero from '../../assets/community.avif'
 const Hero = () => {
 
   return (
-    <div className='hero container-fluid'>
+    <div className='hero container-fluid '>
       
       <div className='hero-text'>
 
       <h1 className='hero-text pt-5 text-right pb-5 '>Rooted in Community, Growing Together for a Better Tomorrow.</h1>
       
-    
-
-        </div> 
-    <div className=' text-center hero-btn pt-2'>
+     <div className=' text-center hero-btn pt-2'>
         <Link to='/ourprojects'> 
          <button className='btn btn-hero align-items-center'  > Learn More </button>
 
     </Link>
 </div>
+
+        </div> 
+   
 
     </div>
   

@@ -16,7 +16,7 @@ const Navbar = props => {
 
   return (
 <>
-<nav class="navbar navbar-expand-lg navbar-light bg-light rounded">
+<nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light rounded">
 <div class="container-fluid">
 
       <a class="navbar-brand text-info font-weight-bolder" href="/">
@@ -38,7 +38,7 @@ const Navbar = props => {
           <a class="nav-link" href="#">OUR PROJECTS</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link fw-bold" href="#">CONNECT WITH US</a>
+          <a class="nav-link fw-bold" href="/contact">CONNECT WITH US</a>
         </li>
         
       </ul>
