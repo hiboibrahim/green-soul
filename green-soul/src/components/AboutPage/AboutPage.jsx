@@ -33,7 +33,7 @@ const AboutPage = () => {
           </div>
           <div class="about-img col-md-5 col-sm-12">
             <div class="block">
-              <img className="pt-5 order-1 floating" src={Logo}  alt="Img"  />
+              <img className="pt-5 order-1 floating " src={Logo}  alt="Img"  />
             </div>
           </div>
         </div>
@@ -43,7 +43,7 @@ const AboutPage = () => {
   <section id="feature">
     <div class="container">
       <div class="row">
-        <div class="col-md-6 col-md-offset-6">
+        <div class="col-md-6 col-md-offset-6 order-2">
 
           <h2 className="activities-title">Community Activities</h2>
           
