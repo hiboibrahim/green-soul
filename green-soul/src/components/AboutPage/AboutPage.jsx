@@ -31,9 +31,9 @@ const AboutPage = () => {
               and joyful.</p>
             </div>
           </div>
-          <div class="col-md-5 col-sm-12">
+          <div class="about-img col-md-5 col-sm-12">
             <div class="block">
-              <img className="pt-5" src={Logo}  alt="Img" />
+              <img className="pt-5 order-1 floating" src={Logo}  alt="Img"  />
             </div>
           </div>
         </div>
@@ -45,7 +45,7 @@ const AboutPage = () => {
       <div class="row">
         <div class="col-md-6 col-md-offset-6">
 
-          <h2>Community Activities</h2>
+          <h2 className="activities-title">Community Activities</h2>
           
           {" "}
 

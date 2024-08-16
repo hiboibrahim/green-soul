@@ -36,7 +36,7 @@ const Footer = () => {
         </ul>
        
     <div class="social-btns ">
-    <a class="btn facebook " href="#"><FiFacebook /></a>
+    <a class="btn facebook" href="#"><FiFacebook /></a>
     <a class="btn twitter" href="#"><FiInstagram /></a>
     <a class="btn youtube" href="#"><FiTwitter /></a>
     <a class="btn instagram" href="#"><FaSlack /></a>

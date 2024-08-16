@@ -17,7 +17,7 @@ const CommunityMeals = () => {
           By providing free or low-cost meals, we address immediate food needs, reduce hunger, and create opportunities for social interaction and community building.</p>
 
       </div>
-      <div className='community-left'>
+      <div className='community-left p-0'>
       <img src={communitymeals} width={500} height={400} alt="" />
 
 

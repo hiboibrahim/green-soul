@@ -16,12 +16,17 @@ const Navbar = props => {
 
   return (
 <>
-<nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light rounded">
+<nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light rounded p-0">
 <div class="container-fluid">
 
       <a class="navbar-brand text-info font-weight-bolder" href="/">
-        <img src={logo} alt="Logo" width="36" height="36" className="vertical-align-middle" />
-      </a>
+      <div class="social-btns pb-2 ">
+    <a class="btn facebook" href="#"><FiFacebook /></a>
+    <a class="btn twitter" href="#"><FiInstagram /></a>
+    <a class="btn youtube" href="#"><FiTwitter /></a>
+    <a class="btn instagram" href="#"><FaSlack /></a>
+
+  </div>      </a>
       <button class="custom-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded={!isNavCollapsed ? true : false} aria-label="Toggle navigation" onClick={handleNavCollapse}>
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -29,7 +34,7 @@ const Navbar = props => {
       <div class={`${isNavCollapsed ? 'collapse' : ''} navbar-collapse`}>
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">HOME</a>
+          <a class="nav-link active" aria-current="page" href="/">HOME</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="/about">ABOUT US</a>

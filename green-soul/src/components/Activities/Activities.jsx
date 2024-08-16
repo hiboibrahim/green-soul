@@ -1,5 +1,4 @@
 import React from "react";
-import "./Activities.css";
 import '../AboutPage/AboutPage.css';
 import activities from "../../assets/activities-img.png";
 

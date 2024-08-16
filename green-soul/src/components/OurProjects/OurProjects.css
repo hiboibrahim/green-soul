@@ -4,6 +4,11 @@
   
  }
 
+
+ #intro {
+  margin: 0;
+  padding: 0;
+ }
 .our-projects {
     margin: 100px auto;
     display: flex;
