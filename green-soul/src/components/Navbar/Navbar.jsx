@@ -32,10 +32,10 @@ const Navbar = props => {
           <a class="nav-link active" aria-current="page" href="#">HOME</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">ABOUT US</a>
+          <a class="nav-link" href="/about">ABOUT US</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">OUR PROJECTS</a>
+          <a class="nav-link" href="/ourprojects">OUR PROJECTS</a>
         </li>
         <li class="nav-item">
           <a class="nav-link fw-bold" href="/contact">CONNECT WITH US</a>

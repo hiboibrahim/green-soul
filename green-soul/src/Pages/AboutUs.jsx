@@ -9,7 +9,6 @@ import Activities from '../components/Activities/Activities'
 const AboutUs = () => {
   return (
     <>
-    <Navbar />
     <AboutPage />
     <Team/>
     <Title title='Our Funders & suppporters' />

@@ -8,7 +8,6 @@ import CommunityMeals from '../components/CommunityMeals/CommunityMeals'
 const OurProjectsPage = () => {
   return (
     <>
-    <Navbar />
       <br/>
 
       <OurProjects />

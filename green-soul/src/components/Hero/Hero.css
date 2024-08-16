@@ -2,12 +2,26 @@
 .banner {
     height: 100vh;
     background: url('../../assets/community.avif') no-repeat center center/cover;
-    color: hsla(138, 95%, 15%, 0.726);
+    color: #fafafa;
     display: flex;
     align-items: center;
     justify-content: center;
     overflow: hidden;
 }
+.banner h1 {
+    font-size: 70px;
+    text-shadow: 1px 1px 2px white;
+}
+
+.banner p {
+
+font-size: 30px;
+color: #fafafa;
+font-style: italic;
+}
+
+
+
 
 .btn-hero {
     width: 200px;
