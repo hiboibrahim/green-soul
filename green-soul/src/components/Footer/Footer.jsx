@@ -9,12 +9,8 @@ const Footer = () => {
       {" "}
       
       <footer class="footer">
-        <div class="waves">
-          <div class="wave" id="wave1"></div>
-          <div class="wave" id="wave2"></div>
-          <div class="wave" id="wave3"></div>
-          <div class="wave" id="wave4"></div>
-        </div>
+      
+          
 
         <ul class="menu">
           <li class="menu__item">
@@ -38,7 +34,17 @@ const Footer = () => {
             </a>
           </li>
         </ul>
-        <p className="copyright-text">Made with 🤍 Hiba Ibrahim</p>
+       
+    <div class="social-btns ">
+    <a class="btn facebook " href="#"><FiFacebook /></a>
+    <a class="btn twitter" href="#"><FiInstagram /></a>
+    <a class="btn youtube" href="#"><FiTwitter /></a>
+    <a class="btn instagram" href="#"><FaSlack /></a>
+
+  </div>
+        
+    
+    
       </footer>
     </div>
   );

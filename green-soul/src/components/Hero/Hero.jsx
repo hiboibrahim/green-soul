@@ -7,23 +7,23 @@ import hero from '../../assets/community.avif'
 const Hero = () => {
 
   return (
-    <div className='hero container-fluid '>
-      
-      <div className='hero-text'>
+    <div class="banner">
+    <div class="container">
+        <div class="row">
+        <h1 class="display-4 fw-bold">GREEN SOUL -</h1>
+        <p className='fw-bold'>Re-connecting to ourselves and nature <br /> through community-led action.</p>
 
-      <h1 className='hero-text pt-5 text-right pb-5 '>Rooted in Community, Growing Together for a Better Tomorrow.</h1>
-      
-     <div className=' text-center hero-btn pt-2'>
-        <Link to='/ourprojects'> 
-         <button className='btn btn-hero align-items-center'  > Learn More </button>
 
-    </Link>
-</div>
+            <div class="col-sm-5">
+                <button href='/about' class="btn p">Learn More</button>
+            </div>
+            <div class="col-sm-7">
 
-        </div> 
-   
-
+                
+            </div>
+        </div>
     </div>
+</div>
   
   )
 }
