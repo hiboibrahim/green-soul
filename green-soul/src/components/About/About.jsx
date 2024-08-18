@@ -1,7 +1,6 @@
 import React from 'react'
 import './About.css'
 import activities from '../../assets/activities-img.png'
-import Fade from 'react-reveal/Fade';
 import { Link } from 'react-router-dom'
 
 

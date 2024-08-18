@@ -10,6 +10,10 @@
 .goals-p{
   text-align: center;
 }
+
+.about-content p{
+  text-align:center;
+}
 .icon-box {
 position: relative;
 width: 160px; 

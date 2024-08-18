@@ -11,7 +11,49 @@ p {
 }
 
 
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+button {
+  appearance: none;
+  border: 0;
+  background: transparent;
+}
+.flex {
+  display: flex;
+}
+.newsletter-container {
+  background-color: #9bbdac;
+  padding: 20px;
+  border-radius: 25px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 100%;
+}
 
+.newsletter-container h2 {
+  margin-bottom: 20px;
+}
+
+.newsletter-container input[type="text"],
+.newsletter-container input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.newsletter-container button {
+  padding: 10px 20px;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.newsletter-container button:hover {
+}
 
 .content-wrapper {
   margin: 0px auto;
@@ -61,7 +103,7 @@ p {
   font-weight: 300;
 }
 .menu__link:hover{
-	color: white;
+	color: darkgreen;
 }
 
 .menu__link:hover {
@@ -75,8 +117,3 @@ p {
   font-weight: 300;
 }
 
-.social-btns  {
-display: flex;
-flex-direction: row;
-
-}

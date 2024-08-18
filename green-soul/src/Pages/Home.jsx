@@ -20,12 +20,6 @@ const Home = () => {
         <Goals />
         <Title title='What our community says' />
         <Review />
-        
-        
-
-       
-        <Contact />
-
       </div>
 
    </>

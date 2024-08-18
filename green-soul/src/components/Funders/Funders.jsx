@@ -5,7 +5,6 @@ import funders2 from '../../assets/funders/funders2.png'
 import funders3 from '../../assets/funders/funders3.jpg'
 import funders4 from '../../assets/funders/funders4.webp'
 import funders6 from '../../assets/funders/funder6.jpg'
-import Fade from 'react-reveal/Fade';
 import { Link } from 'react-router-dom'
 
 
@@ -29,7 +28,6 @@ const Funders = () => {
         </div>
     <div className='funders'>
       
-      <Fade>
         
         <div className='funders-item'>
            <img src={funders1} alt='' />
@@ -53,7 +51,6 @@ const Funders = () => {
         
 
         </div>
-        </Fade>
 
     </div>
     

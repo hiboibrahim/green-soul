@@ -5,6 +5,7 @@ import community1 from '../../assets/communitygardening.jpg'
 
 const Review = () => {
   return (
+    <>
     <div className='review-container'>
       <div className='review-title'>
         <div className='review-text'>
@@ -22,6 +23,15 @@ const Review = () => {
         
         
         </div>
+         <div class="newsletter-container pt-3">
+         <h2>Subscribe to our Newsletter</h2>
+         <form action="subscribe.php" method="post">
+             <input type="text" name="name" placeholder="Your Name" required />
+             <input type="email" name="email" placeholder="Your Email" required />
+             <button className="btn" type="submit">Subscribe</button>
+         </form>
+     </div>
+     </>
   )
 }
 
