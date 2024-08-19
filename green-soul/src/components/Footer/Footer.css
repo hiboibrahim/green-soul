@@ -19,8 +19,8 @@ button {
   display: flex;
 }
 .newsletter-container {
-  background: rgb(230,230,230);
-  background: linear-gradient(90deg, rgb(206, 206, 206) 0%, rgb(113, 160, 106) 35%, rgb(203, 203, 203) 100%);
+  background: rgb(197, 196, 196);
+
   padding: 20px;
   border-radius: 25px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
