@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./Navbar.css";
 import menu_icon from "../../assets/menu-icon1.png";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { FiFacebook, FiTwitter, FiInstagram } from "react-icons/fi";
 import {FaBars, FaSlack } from 'react-icons/fa'
 import logo from '../../assets/Logo1.png'
@@ -56,11 +56,11 @@ const Navbar = props => {
       <div class={`${isNavCollapsed ? 'collapse' : ''} navbar-collapse`}>
       <ul class="navbar-nav">
       <li>
-      <Link to="/" className="nav-link active">Home</Link>
-    </li>
+      <NavLink to="/" className="nav-link">Home</NavLink>   
+       </li>
     <li>
-      <Link to="/about" className="nav-link">About Us</Link>
-    </li>
+    <NavLink to="/about" className="nav-link">About Us</NavLink>   
+     </li>
     <li>
       <Link to="/ourprojects" className="nav-link">Our Projects</Link>
     </li>
