@@ -55,18 +55,18 @@ const Navbar = props => {
 
       <div class={`${isNavCollapsed ? 'collapse' : ''} navbar-collapse`}>
       <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="/">HOME</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/about">ABOUT US</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/ourprojects">OUR PROJECTS</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link fw-bold" href="/contact">CONNECT WITH US</a>
-        </li>
+      <li>
+      <Link to="/" className="nav-link active">Home</Link>
+    </li>
+    <li>
+      <Link to="/about" className="nav-link">About Us</Link>
+    </li>
+    <li>
+      <Link to="/ourprojects" className="nav-link">Our Projects</Link>
+    </li>
+    <li>
+      <Link to="/contact" className="nav-link fw-bold">Connect With Us</Link>
+    </li>
         
       </ul>
 

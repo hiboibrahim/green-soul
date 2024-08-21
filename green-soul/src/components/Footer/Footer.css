@@ -19,10 +19,10 @@ button {
   display: flex;
 }
 .newsletter-container {
-  background: rgb(197, 196, 196);
+  background: rgb(227, 225, 225);
 
   padding: 20px;
-  border-radius: 25px;
+  border-radius: 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   text-align: center;
   width: 100%;
