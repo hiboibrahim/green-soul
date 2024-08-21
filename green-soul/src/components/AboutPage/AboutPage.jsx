@@ -1,5 +1,6 @@
 import React from "react";
 import Logo from "../../assets/Logo4.png";
+import './AboutPage.css'
 
 const AboutPage = () => {
   return (
@@ -16,7 +17,8 @@ const AboutPage = () => {
                 {" "}
               We support marginalised groups, those from lower income
               backgrounds, women and people of colour in engaging in wider
-              society.              </div>
+              society.            
+                </div>
               <p className="about-p">   Green Soul is a grassroots community organisation centred on
               social inclusion. We actively seek to challenge urban inequalities
               and work with disadvantaged groups where people are marginalised

@@ -1,6 +1,5 @@
 import React from 'react'
 import './About.css'
-import activities from '../../assets/activities-img.png'
 import { Link } from 'react-router-dom'
 
 
