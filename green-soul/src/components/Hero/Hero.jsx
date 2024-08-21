@@ -14,17 +14,15 @@ const Hero = () => {
         <p className='fw-bold'>Re-connecting to ourselves and nature <br /> through community-led action.</p>
 
 
-        <Link to="/about">
+            <div class="col-sm-5 text-center">
+            <Link to="/about">
 <button Link to='/about' className='btn'> Learn More</button>
-          </Link>
+          </Link>            
+          </div>
+
             <div class="col-sm-7">
 
                 
-
-
-
-
-          
             </div>
         </div>
     </div>
