@@ -14,7 +14,7 @@ const Hero = () => {
         <p className='fw-bold'>Re-connecting to ourselves and nature <br /> through community-led action.</p>
 
 
-        <Link to="/ourprojects">
+        <Link to="/about">
 <button Link to='/about' className='btn'> Learn More</button>
           </Link>
             <div class="col-sm-7">
