@@ -19,13 +19,16 @@
     
 }
 
-
+.about-p {
+  letter-spacing: -2px;
+}
 .our-project p{
   font-size: 20px;
   font-weight: 600;
   padding-top: 10px;
   color: #7B7B7B;
-  text-align: justify;
+  text-align:justify;
+  word-spacing: -1px;
 }
 
 --*/
@@ -61,6 +64,7 @@
 
 .section-p {
   text-align: justify;
+  letter-spacing: -1px;
 }
 
 .block img {

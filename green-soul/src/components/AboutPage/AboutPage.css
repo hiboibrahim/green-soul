@@ -30,9 +30,11 @@
   #intro .section-title p {
     padding-top: 20px;
     text-align: justify;
+    letter-spacing: -5px;
   }
   .about-p {
     text-align: justify;
+    letter-spacing: -1px;
   }
 
   #feature {
@@ -77,7 +79,7 @@
   .about-img img {
     
     position: relative;
-    bottom: 100px;
+    bottom: 60px;
     opacity: 0.8;
     z-index: 1;
     animation: floating 3s ease-in-out infinite;

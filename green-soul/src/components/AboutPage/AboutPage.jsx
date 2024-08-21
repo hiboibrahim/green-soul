@@ -8,7 +8,7 @@ const AboutPage = () => {
       
 
       <section id="intro">
-      <div class="container">
+      <div class="container pt-5">
         <div class="row">
           <div class="col-md-7 col-sm-12">
             <div class="block">
