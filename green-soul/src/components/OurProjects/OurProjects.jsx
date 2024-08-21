@@ -1,7 +1,7 @@
 import React from "react";
 import "./OurProjects.css";
 import foodcoop from '../../assets/foodcoop.png'
-import communitymeals from '../../assets/community-meals1.png'
+import communitymeals from '../../assets/meals12.png'
 
 
 const OurProjects = () => {
@@ -50,7 +50,7 @@ const OurProjects = () => {
       </div>
       <div className="col-md-5 col-sm-12">
         <div className="block">
-          <img src={communitymeals} width={500} height={400} alt="Img" />
+          <img src={communitymeals} width={400} height={400} alt="Img" />
         </div>
       </div>
     </div>
