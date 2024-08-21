@@ -51,9 +51,10 @@ const AboutPage = () => {
           
           {" "}
 
-            Green Soul are committed to promoting equity, well-being, and
+            <p className="p-1">Green Soul are committed to promoting equity, well-being, and
             environmental stewardship through collaborative and inclusive
             activities. 
+            </p>
           
 
           <p className="activities-p pt-3"> 
