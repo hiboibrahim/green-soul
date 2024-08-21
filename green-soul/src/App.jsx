@@ -6,10 +6,8 @@ import Footer from "./components/Footer/Footer";
 import AboutUs from './Pages/AboutUs';
 import ContactUs from './Pages/ContactUs';
 import OurProjectsPage from './Pages/OurProjectsPage';
+import Events from './Pages/Events';
 import Home from './Pages/Home';
-import About from './components/About/About.jsx'
-import OurProjects from './components/OurProjects/OurProjects.jsx'
-import Contact from './components/Contact/Contact.jsx'
 
 
 const App = () => {
@@ -20,9 +18,10 @@ const App = () => {
       
        <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/ourprojects" element={<OurProjects />} />
+        <Route path="/about" element={<AboutUs />} />
+        <Route path="/contact" element={<ContactUs />} />
+        <Route path="/ourprojects" element={<OurProjectsPage />} />
+        <Route path="/events" element={<Events />} />
 
       </Routes>
 
