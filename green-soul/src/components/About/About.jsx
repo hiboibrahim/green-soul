@@ -11,7 +11,6 @@ const About = () => {
           <div class="col-md-7 col-sm-12">
             <div class="block">
               <div class="section-title">
-                <h2 className="pb-3">Who Are We?</h2>
                 {" "}
               We support marginalised groups, those from lower income
               backgrounds, women and people of colour in engaging in wider

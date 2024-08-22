@@ -19,7 +19,7 @@ const Navbar = props => {
 <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light rounded p-0">
 <div class="container-fluid">
 
-      <a class="navbar-brand text-info font-weight-bolder" href="/">
+      <div class="navbar-brand text-info font-weight-bolder" href="/">
       <div class="layout_item w-25 pt-3">
                   <ul class="flex">
                     <li className="social-media">
@@ -36,7 +36,8 @@ const Navbar = props => {
                     </li>
                   </ul>
                   
-                </div>     </a>
+                </div>     
+                </div>
       <button class="custom-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded={!isNavCollapsed ? true : false} aria-label="Toggle navigation" onClick={handleNavCollapse}>
         <span class="navbar-toggler-icon"></span>
       </button>
