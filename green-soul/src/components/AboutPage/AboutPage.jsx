@@ -34,7 +34,7 @@ const AboutPage = () => {
             </div>
           </div>
           <div class="about-img col-md-5 col-sm-12">
-            <div class="block">
+            <div class="block order-sm-1">
               <img className="pt-5 order-1 floating " src={Logo}  alt="Img"  />
             </div>
           </div>
